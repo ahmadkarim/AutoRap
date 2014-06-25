@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TheAmazingAudioEngine.h"
+#import "AEPlaythroughChannel.h"
+#import "AEExpanderFilter.h"
+#import "AELimiterFilter.h"
+#import "AERecorder.h"
+#import <QuartzCore/QuartzCore.h>
+#import <AEAudioController.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+    
+}
+
 
 @end

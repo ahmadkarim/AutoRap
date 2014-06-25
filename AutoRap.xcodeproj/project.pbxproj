@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F548608B195B8AD600E4226C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F548608A195B8AD600E4226C /* QuartzCore.framework */; };
+		F548608E195B8B3100E4226C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F548608D195B8B3100E4226C /* AVFoundation.framework */; };
+		F5486090195B8C0F00E4226C /* Gangster hip hop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F548608F195B8C0F00E4226C /* Gangster hip hop.mp3 */; };
+		F5486091195B8C0F00E4226C /* Gangster hip hop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F548608F195B8C0F00E4226C /* Gangster hip hop.mp3 */; };
 		F565CD49195B6A5B002DA34C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F565CD48195B6A5B002DA34C /* Foundation.framework */; };
 		F565CD4B195B6A5B002DA34C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F565CD4A195B6A5B002DA34C /* CoreGraphics.framework */; };
 		F565CD4D195B6A5B002DA34C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F565CD4C195B6A5B002DA34C /* UIKit.framework */; };
@@ -21,6 +25,27 @@
 		F565CD6A195B6A5C002DA34C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F565CD4C195B6A5B002DA34C /* UIKit.framework */; };
 		F565CD72195B6A5C002DA34C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F565CD70195B6A5C002DA34C /* InfoPlist.strings */; };
 		F565CD74195B6A5C002DA34C /* AutoRapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F565CD73195B6A5C002DA34C /* AutoRapTests.m */; };
+		F565CD85195B6CBD002DA34C /* libTheAmazingAudioEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F565CD82195B6C93002DA34C /* libTheAmazingAudioEngine.a */; };
+		F565CD87195B6CD2002DA34C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F565CD86195B6CD2002DA34C /* AudioToolbox.framework */; };
+		F565CD89195B6CDB002DA34C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F565CD88195B6CDB002DA34C /* Accelerate.framework */; };
+		F565CD9E195B6E41002DA34C /* AEExpanderFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = F565CD8D195B6E41002DA34C /* AEExpanderFilter.m */; };
+		F565CD9F195B6E41002DA34C /* AEExpanderFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = F565CD8D195B6E41002DA34C /* AEExpanderFilter.m */; };
+		F565CDA0195B6E41002DA34C /* AELimiter.m in Sources */ = {isa = PBXBuildFile; fileRef = F565CD8F195B6E41002DA34C /* AELimiter.m */; };
+		F565CDA1195B6E41002DA34C /* AELimiter.m in Sources */ = {isa = PBXBuildFile; fileRef = F565CD8F195B6E41002DA34C /* AELimiter.m */; };
+		F565CDA2195B6E41002DA34C /* AELimiterFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = F565CD91195B6E41002DA34C /* AELimiterFilter.m */; };
+		F565CDA3195B6E41002DA34C /* AELimiterFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = F565CD91195B6E41002DA34C /* AELimiterFilter.m */; };
+		F565CDA4195B6E41002DA34C /* AEMixerBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = F565CD93195B6E41002DA34C /* AEMixerBuffer.m */; };
+		F565CDA5195B6E41002DA34C /* AEMixerBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = F565CD93195B6E41002DA34C /* AEMixerBuffer.m */; };
+		F565CDA6195B6E41002DA34C /* AEPlaythroughChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = F565CD95195B6E41002DA34C /* AEPlaythroughChannel.m */; };
+		F565CDA7195B6E41002DA34C /* AEPlaythroughChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = F565CD95195B6E41002DA34C /* AEPlaythroughChannel.m */; };
+		F565CDA8195B6E41002DA34C /* AERecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = F565CD97195B6E41002DA34C /* AERecorder.m */; };
+		F565CDA9195B6E41002DA34C /* AERecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = F565CD97195B6E41002DA34C /* AERecorder.m */; };
+		F565CDAA195B6E41002DA34C /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = F565CD99195B6E41002DA34C /* README.markdown */; };
+		F565CDAB195B6E41002DA34C /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = F565CD99195B6E41002DA34C /* README.markdown */; };
+		F565CDAC195B6E41002DA34C /* TPCircularBuffer+AudioBufferList.c in Sources */ = {isa = PBXBuildFile; fileRef = F565CD9A195B6E41002DA34C /* TPCircularBuffer+AudioBufferList.c */; };
+		F565CDAD195B6E41002DA34C /* TPCircularBuffer+AudioBufferList.c in Sources */ = {isa = PBXBuildFile; fileRef = F565CD9A195B6E41002DA34C /* TPCircularBuffer+AudioBufferList.c */; };
+		F565CDAE195B6E41002DA34C /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = F565CD9C195B6E41002DA34C /* TPCircularBuffer.c */; };
+		F565CDAF195B6E41002DA34C /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = F565CD9C195B6E41002DA34C /* TPCircularBuffer.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +56,26 @@
 			remoteGlobalIDString = F565CD44195B6A5B002DA34C;
 			remoteInfo = AutoRap;
 		};
+		F565CD81195B6C93002DA34C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F565CD7D195B6C92002DA34C /* TheAmazingAudioEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C215CEC1523A7D500D36CAD;
+			remoteInfo = TheAmazingAudioEngine;
+		};
+		F565CD83195B6CA9002DA34C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F565CD7D195B6C92002DA34C /* TheAmazingAudioEngine.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C215CEB1523A7D500D36CAD;
+			remoteInfo = TheAmazingAudioEngine;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F548608A195B8AD600E4226C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F548608D195B8B3100E4226C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F548608F195B8C0F00E4226C /* Gangster hip hop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Gangster hip hop.mp3"; sourceTree = "<group>"; };
 		F565CD45195B6A5B002DA34C /* AutoRap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoRap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F565CD48195B6A5B002DA34C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F565CD4A195B6A5B002DA34C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +95,26 @@
 		F565CD6F195B6A5C002DA34C /* AutoRapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoRapTests-Info.plist"; sourceTree = "<group>"; };
 		F565CD71195B6A5C002DA34C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F565CD73195B6A5C002DA34C /* AutoRapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoRapTests.m; sourceTree = "<group>"; };
+		F565CD7D195B6C92002DA34C /* TheAmazingAudioEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TheAmazingAudioEngine.xcodeproj; path = "../TheAmazingAudioEngine copy/TheAmazingAudioEngine.xcodeproj"; sourceTree = "<group>"; };
+		F565CD86195B6CD2002DA34C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F565CD88195B6CDB002DA34C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		F565CD8C195B6E41002DA34C /* AEExpanderFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEExpanderFilter.h; sourceTree = "<group>"; };
+		F565CD8D195B6E41002DA34C /* AEExpanderFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEExpanderFilter.m; sourceTree = "<group>"; };
+		F565CD8E195B6E41002DA34C /* AELimiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AELimiter.h; sourceTree = "<group>"; };
+		F565CD8F195B6E41002DA34C /* AELimiter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AELimiter.m; sourceTree = "<group>"; };
+		F565CD90195B6E41002DA34C /* AELimiterFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AELimiterFilter.h; sourceTree = "<group>"; };
+		F565CD91195B6E41002DA34C /* AELimiterFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AELimiterFilter.m; sourceTree = "<group>"; };
+		F565CD92195B6E41002DA34C /* AEMixerBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEMixerBuffer.h; sourceTree = "<group>"; };
+		F565CD93195B6E41002DA34C /* AEMixerBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEMixerBuffer.m; sourceTree = "<group>"; };
+		F565CD94195B6E41002DA34C /* AEPlaythroughChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEPlaythroughChannel.h; sourceTree = "<group>"; };
+		F565CD95195B6E41002DA34C /* AEPlaythroughChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEPlaythroughChannel.m; sourceTree = "<group>"; };
+		F565CD96195B6E41002DA34C /* AERecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AERecorder.h; sourceTree = "<group>"; };
+		F565CD97195B6E41002DA34C /* AERecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AERecorder.m; sourceTree = "<group>"; };
+		F565CD99195B6E41002DA34C /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		F565CD9A195B6E41002DA34C /* TPCircularBuffer+AudioBufferList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "TPCircularBuffer+AudioBufferList.c"; sourceTree = "<group>"; };
+		F565CD9B195B6E41002DA34C /* TPCircularBuffer+AudioBufferList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TPCircularBuffer+AudioBufferList.h"; sourceTree = "<group>"; };
+		F565CD9C195B6E41002DA34C /* TPCircularBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TPCircularBuffer.c; sourceTree = "<group>"; };
+		F565CD9D195B6E41002DA34C /* TPCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCircularBuffer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +122,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F548608E195B8B3100E4226C /* AVFoundation.framework in Frameworks */,
+				F548608B195B8AD600E4226C /* QuartzCore.framework in Frameworks */,
+				F565CD89195B6CDB002DA34C /* Accelerate.framework in Frameworks */,
+				F565CD87195B6CD2002DA34C /* AudioToolbox.framework in Frameworks */,
+				F565CD85195B6CBD002DA34C /* libTheAmazingAudioEngine.a in Frameworks */,
 				F565CD4B195B6A5B002DA34C /* CoreGraphics.framework in Frameworks */,
 				F565CD4D195B6A5B002DA34C /* UIKit.framework in Frameworks */,
 				F565CD49195B6A5B002DA34C /* Foundation.framework in Frameworks */,
@@ -82,6 +149,8 @@
 		F565CD3C195B6A5B002DA34C = {
 			isa = PBXGroup;
 			children = (
+				F565CD8B195B6E41002DA34C /* Modules */,
+				F565CD7D195B6C92002DA34C /* TheAmazingAudioEngine.xcodeproj */,
 				F565CD4E195B6A5B002DA34C /* AutoRap */,
 				F565CD6D195B6A5C002DA34C /* AutoRapTests */,
 				F565CD47195B6A5B002DA34C /* Frameworks */,
@@ -101,6 +170,10 @@
 		F565CD47195B6A5B002DA34C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F548608D195B8B3100E4226C /* AVFoundation.framework */,
+				F548608A195B8AD600E4226C /* QuartzCore.framework */,
+				F565CD88195B6CDB002DA34C /* Accelerate.framework */,
+				F565CD86195B6CD2002DA34C /* AudioToolbox.framework */,
 				F565CD48195B6A5B002DA34C /* Foundation.framework */,
 				F565CD4A195B6A5B002DA34C /* CoreGraphics.framework */,
 				F565CD4C195B6A5B002DA34C /* UIKit.framework */,
@@ -126,6 +199,7 @@
 		F565CD4F195B6A5B002DA34C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F548608F195B8C0F00E4226C /* Gangster hip hop.mp3 */,
 				F565CD50195B6A5B002DA34C /* AutoRap-Info.plist */,
 				F565CD51195B6A5C002DA34C /* InfoPlist.strings */,
 				F565CD54195B6A5C002DA34C /* main.m */,
@@ -152,6 +226,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F565CD7E195B6C92002DA34C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F565CD82195B6C93002DA34C /* libTheAmazingAudioEngine.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F565CD8B195B6E41002DA34C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F565CD8C195B6E41002DA34C /* AEExpanderFilter.h */,
+				F565CD8D195B6E41002DA34C /* AEExpanderFilter.m */,
+				F565CD8E195B6E41002DA34C /* AELimiter.h */,
+				F565CD8F195B6E41002DA34C /* AELimiter.m */,
+				F565CD90195B6E41002DA34C /* AELimiterFilter.h */,
+				F565CD91195B6E41002DA34C /* AELimiterFilter.m */,
+				F565CD92195B6E41002DA34C /* AEMixerBuffer.h */,
+				F565CD93195B6E41002DA34C /* AEMixerBuffer.m */,
+				F565CD94195B6E41002DA34C /* AEPlaythroughChannel.h */,
+				F565CD95195B6E41002DA34C /* AEPlaythroughChannel.m */,
+				F565CD96195B6E41002DA34C /* AERecorder.h */,
+				F565CD97195B6E41002DA34C /* AERecorder.m */,
+				F565CD98195B6E41002DA34C /* TPCircularBuffer */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F565CD98195B6E41002DA34C /* TPCircularBuffer */ = {
+			isa = PBXGroup;
+			children = (
+				F565CD99195B6E41002DA34C /* README.markdown */,
+				F565CD9A195B6E41002DA34C /* TPCircularBuffer+AudioBufferList.c */,
+				F565CD9B195B6E41002DA34C /* TPCircularBuffer+AudioBufferList.h */,
+				F565CD9C195B6E41002DA34C /* TPCircularBuffer.c */,
+				F565CD9D195B6E41002DA34C /* TPCircularBuffer.h */,
+			);
+			path = TPCircularBuffer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,6 +280,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				F565CD84195B6CA9002DA34C /* PBXTargetDependency */,
 			);
 			name = AutoRap;
 			productName = AutoRap;
@@ -215,6 +330,12 @@
 			mainGroup = F565CD3C195B6A5B002DA34C;
 			productRefGroup = F565CD46195B6A5B002DA34C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F565CD7E195B6C92002DA34C /* Products */;
+					ProjectRef = F565CD7D195B6C92002DA34C /* TheAmazingAudioEngine.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F565CD44195B6A5B002DA34C /* AutoRap */,
@@ -223,6 +344,16 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		F565CD82195B6C93002DA34C /* libTheAmazingAudioEngine.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTheAmazingAudioEngine.a;
+			remoteRef = F565CD81195B6C93002DA34C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		F565CD43195B6A5B002DA34C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -230,6 +361,8 @@
 			files = (
 				F565CD61195B6A5C002DA34C /* Images.xcassets in Resources */,
 				F565CD53195B6A5C002DA34C /* InfoPlist.strings in Resources */,
+				F565CDAA195B6E41002DA34C /* README.markdown in Resources */,
+				F5486090195B8C0F00E4226C /* Gangster hip hop.mp3 in Resources */,
 				F565CD5C195B6A5C002DA34C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,7 +371,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F565CDAB195B6E41002DA34C /* README.markdown in Resources */,
 				F565CD72195B6A5C002DA34C /* InfoPlist.strings in Resources */,
+				F5486091195B8C0F00E4226C /* Gangster hip hop.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +384,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F565CDAE195B6E41002DA34C /* TPCircularBuffer.c in Sources */,
+				F565CDA2195B6E41002DA34C /* AELimiterFilter.m in Sources */,
+				F565CD9E195B6E41002DA34C /* AEExpanderFilter.m in Sources */,
 				F565CD5F195B6A5C002DA34C /* ViewController.m in Sources */,
+				F565CDAC195B6E41002DA34C /* TPCircularBuffer+AudioBufferList.c in Sources */,
+				F565CDA4195B6E41002DA34C /* AEMixerBuffer.m in Sources */,
+				F565CDA8195B6E41002DA34C /* AERecorder.m in Sources */,
 				F565CD59195B6A5C002DA34C /* AppDelegate.m in Sources */,
 				F565CD55195B6A5C002DA34C /* main.m in Sources */,
+				F565CDA0195B6E41002DA34C /* AELimiter.m in Sources */,
+				F565CDA6195B6E41002DA34C /* AEPlaythroughChannel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +402,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F565CD9F195B6E41002DA34C /* AEExpanderFilter.m in Sources */,
+				F565CDA9195B6E41002DA34C /* AERecorder.m in Sources */,
 				F565CD74195B6A5C002DA34C /* AutoRapTests.m in Sources */,
+				F565CDA3195B6E41002DA34C /* AELimiterFilter.m in Sources */,
+				F565CDA5195B6E41002DA34C /* AEMixerBuffer.m in Sources */,
+				F565CDAD195B6E41002DA34C /* TPCircularBuffer+AudioBufferList.c in Sources */,
+				F565CDAF195B6E41002DA34C /* TPCircularBuffer.c in Sources */,
+				F565CDA1195B6E41002DA34C /* AELimiter.m in Sources */,
+				F565CDA7195B6E41002DA34C /* AEPlaythroughChannel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +421,11 @@
 			isa = PBXTargetDependency;
 			target = F565CD44195B6A5B002DA34C /* AutoRap */;
 			targetProxy = F565CD6B195B6A5C002DA34C /* PBXContainerItemProxy */;
+		};
+		F565CD84195B6CA9002DA34C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TheAmazingAudioEngine;
+			targetProxy = F565CD83195B6CA9002DA34C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -380,6 +536,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AutoRap/AutoRap-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Development/TheAmazingAudioEngine\\ copy/TheAmazingAudioEngine";
 				INFOPLIST_FILE = "AutoRap/AutoRap-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -458,6 +615,7 @@
 				F565CD79195B6A5C002DA34C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F565CD7A195B6A5C002DA34C /* Build configuration list for PBXNativeTarget "AutoRapTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +624,7 @@
 				F565CD7C195B6A5C002DA34C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
