@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41B383A9195C36AB00DF4B8B /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B3839D195C36AB00DF4B8B /* bg.png */; };
+		41B383AA195C36AB00DF4B8B /* play button.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B3839E195C36AB00DF4B8B /* play button.png */; };
+		41B383AB195C36AB00DF4B8B /* song bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B3839F195C36AB00DF4B8B /* song bar.png */; };
+		41B383AC195C36AB00DF4B8B /* time line.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B383A0195C36AB00DF4B8B /* time line.png */; };
+		41B383AD195C36AB00DF4B8B /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B383A2195C36AB00DF4B8B /* bg.png */; };
+		41B383AE195C36AB00DF4B8B /* Record button press.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B383A3195C36AB00DF4B8B /* Record button press.png */; };
+		41B383AF195C36AB00DF4B8B /* Record button.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B383A4195C36AB00DF4B8B /* Record button.png */; };
+		41B383B0195C36AB00DF4B8B /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B383A6195C36AB00DF4B8B /* bg.png */; };
+		41B383B1195C36AB00DF4B8B /* Play button press.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B383A7195C36AB00DF4B8B /* Play button press.png */; };
+		41B383B2195C36AB00DF4B8B /* Play button.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B383A8195C36AB00DF4B8B /* Play button.png */; };
 		F548608B195B8AD600E4226C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F548608A195B8AD600E4226C /* QuartzCore.framework */; };
 		F548608E195B8B3100E4226C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F548608D195B8B3100E4226C /* AVFoundation.framework */; };
 		F5486090195B8C0F00E4226C /* Gangster hip hop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F548608F195B8C0F00E4226C /* Gangster hip hop.mp3 */; };
@@ -73,6 +83,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41B3839D195C36AB00DF4B8B /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		41B3839E195C36AB00DF4B8B /* play button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play button.png"; sourceTree = "<group>"; };
+		41B3839F195C36AB00DF4B8B /* song bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "song bar.png"; sourceTree = "<group>"; };
+		41B383A0195C36AB00DF4B8B /* time line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "time line.png"; sourceTree = "<group>"; };
+		41B383A2195C36AB00DF4B8B /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		41B383A3195C36AB00DF4B8B /* Record button press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Record button press.png"; sourceTree = "<group>"; };
+		41B383A4195C36AB00DF4B8B /* Record button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Record button.png"; sourceTree = "<group>"; };
+		41B383A6195C36AB00DF4B8B /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		41B383A7195C36AB00DF4B8B /* Play button press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play button press.png"; sourceTree = "<group>"; };
+		41B383A8195C36AB00DF4B8B /* Play button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play button.png"; sourceTree = "<group>"; };
 		F548608A195B8AD600E4226C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F548608D195B8B3100E4226C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		F548608F195B8C0F00E4226C /* Gangster hip hop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Gangster hip hop.mp3"; sourceTree = "<group>"; };
@@ -146,6 +166,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41B3839C195C36AB00DF4B8B /* screen 2 */ = {
+			isa = PBXGroup;
+			children = (
+				41B3839D195C36AB00DF4B8B /* bg.png */,
+				41B3839E195C36AB00DF4B8B /* play button.png */,
+				41B3839F195C36AB00DF4B8B /* song bar.png */,
+				41B383A0195C36AB00DF4B8B /* time line.png */,
+			);
+			path = "screen 2";
+			sourceTree = "<group>";
+		};
+		41B383A1195C36AB00DF4B8B /* Screen 3 */ = {
+			isa = PBXGroup;
+			children = (
+				41B383A2195C36AB00DF4B8B /* bg.png */,
+				41B383A3195C36AB00DF4B8B /* Record button press.png */,
+				41B383A4195C36AB00DF4B8B /* Record button.png */,
+			);
+			path = "Screen 3";
+			sourceTree = "<group>";
+		};
+		41B383A5195C36AB00DF4B8B /* Screen 4 */ = {
+			isa = PBXGroup;
+			children = (
+				41B383A6195C36AB00DF4B8B /* bg.png */,
+				41B383A7195C36AB00DF4B8B /* Play button press.png */,
+				41B383A8195C36AB00DF4B8B /* Play button.png */,
+			);
+			path = "Screen 4";
+			sourceTree = "<group>";
+		};
 		F565CD3C195B6A5B002DA34C = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +250,9 @@
 		F565CD4F195B6A5B002DA34C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				41B3839C195C36AB00DF4B8B /* screen 2 */,
+				41B383A1195C36AB00DF4B8B /* Screen 3 */,
+				41B383A5195C36AB00DF4B8B /* Screen 4 */,
 				F548608F195B8C0F00E4226C /* Gangster hip hop.mp3 */,
 				F565CD50195B6A5B002DA34C /* AutoRap-Info.plist */,
 				F565CD51195B6A5C002DA34C /* InfoPlist.strings */,
@@ -359,11 +413,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41B383B0195C36AB00DF4B8B /* bg.png in Resources */,
+				41B383AD195C36AB00DF4B8B /* bg.png in Resources */,
+				41B383AC195C36AB00DF4B8B /* time line.png in Resources */,
+				41B383B1195C36AB00DF4B8B /* Play button press.png in Resources */,
 				F565CD61195B6A5C002DA34C /* Images.xcassets in Resources */,
+				41B383AF195C36AB00DF4B8B /* Record button.png in Resources */,
 				F565CD53195B6A5C002DA34C /* InfoPlist.strings in Resources */,
+				41B383A9195C36AB00DF4B8B /* bg.png in Resources */,
+				41B383AB195C36AB00DF4B8B /* song bar.png in Resources */,
+				41B383B2195C36AB00DF4B8B /* Play button.png in Resources */,
+				41B383AE195C36AB00DF4B8B /* Record button press.png in Resources */,
 				F565CDAA195B6E41002DA34C /* README.markdown in Resources */,
 				F5486090195B8C0F00E4226C /* Gangster hip hop.mp3 in Resources */,
 				F565CD5C195B6A5C002DA34C /* Main.storyboard in Resources */,
+				41B383AA195C36AB00DF4B8B /* play button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,7 +600,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AutoRap/AutoRap-Prefix.pch";
-				"HEADER_SEARCH_PATHS[arch=*]" = "/Development/TheAmazingAudioEngine\\ copy/TheAmazingAudioEngine";
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/nauman/Desktop/Current\\ Projects/MorvenAutoRap/Code/TheAmazingAudioEngine\\ copy/TheAmazingAudioEngine";
 				INFOPLIST_FILE = "AutoRap/AutoRap-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
