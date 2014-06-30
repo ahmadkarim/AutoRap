@@ -20,6 +20,7 @@
 		41B383AC195C36AB00DF4B8B /* time line.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B383A0195C36AB00DF4B8B /* time line.png */; };
 		41B383AD195C36AB00DF4B8B /* bg3.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B383A2195C36AB00DF4B8B /* bg3.png */; };
 		41B383B0195C36AB00DF4B8B /* bg4.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B383A6195C36AB00DF4B8B /* bg4.png */; };
+		F51D92D01961E205008E05CD /* PlayScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51D92CF1961E205008E05CD /* PlayScreenViewController.m */; };
 		F548608B195B8AD600E4226C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F548608A195B8AD600E4226C /* QuartzCore.framework */; };
 		F548608E195B8B3100E4226C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F548608D195B8B3100E4226C /* AVFoundation.framework */; };
 		F5486090195B8C0F00E4226C /* Gangster hip hop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F548608F195B8C0F00E4226C /* Gangster hip hop.mp3 */; };
@@ -99,6 +100,8 @@
 		41B383A0195C36AB00DF4B8B /* time line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "time line.png"; sourceTree = "<group>"; };
 		41B383A2195C36AB00DF4B8B /* bg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg3.png; sourceTree = "<group>"; };
 		41B383A6195C36AB00DF4B8B /* bg4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg4.png; sourceTree = "<group>"; };
+		F51D92CE1961E205008E05CD /* PlayScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayScreenViewController.h; sourceTree = "<group>"; };
+		F51D92CF1961E205008E05CD /* PlayScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayScreenViewController.m; sourceTree = "<group>"; };
 		F548608A195B8AD600E4226C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F548608D195B8B3100E4226C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		F548608F195B8C0F00E4226C /* Gangster hip hop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Gangster hip hop.mp3"; sourceTree = "<group>"; };
@@ -257,6 +260,8 @@
 				F565CD5A195B6A5C002DA34C /* Main.storyboard */,
 				F565CD5D195B6A5C002DA34C /* ViewController.h */,
 				F565CD5E195B6A5C002DA34C /* ViewController.m */,
+				F51D92CE1961E205008E05CD /* PlayScreenViewController.h */,
+				F51D92CF1961E205008E05CD /* PlayScreenViewController.m */,
 				F565CD60195B6A5C002DA34C /* Images.xcassets */,
 				F565CD4F195B6A5B002DA34C /* Supporting Files */,
 			);
@@ -385,6 +390,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Ahmad Karim";
 				TargetAttributes = {
+					F565CD44195B6A5B002DA34C = {
+						DevelopmentTeam = N2S353Z69T;
+					};
 					F565CD65195B6A5C002DA34C = {
 						TestTargetID = F565CD44195B6A5B002DA34C;
 					};
@@ -478,6 +486,7 @@
 				F565CD59195B6A5C002DA34C /* AppDelegate.m in Sources */,
 				F565CD55195B6A5C002DA34C /* main.m in Sources */,
 				F565CDA0195B6E41002DA34C /* AELimiter.m in Sources */,
+				F51D92D01961E205008E05CD /* PlayScreenViewController.m in Sources */,
 				F565CDA6195B6E41002DA34C /* AEPlaythroughChannel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -618,9 +627,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AutoRap/AutoRap-Prefix.pch";
-				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/nauman/Desktop/Current\\ Projects/MorvenAutoRap/Code/TheAmazingAudioEngine\\ copy/TheAmazingAudioEngine";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Development/TheAmazingAudioEngine\\ copy/TheAmazingAudioEngine";
 				INFOPLIST_FILE = "AutoRap/AutoRap-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -632,8 +643,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AutoRap/AutoRap-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Development/TheAmazingAudioEngine\\ copy/TheAmazingAudioEngine";
 				INFOPLIST_FILE = "AutoRap/AutoRap-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
