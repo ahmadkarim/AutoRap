@@ -21,6 +21,7 @@
 		41B383AD195C36AB00DF4B8B /* bg3.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B383A2195C36AB00DF4B8B /* bg3.png */; };
 		41B383B0195C36AB00DF4B8B /* bg4.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B383A6195C36AB00DF4B8B /* bg4.png */; };
 		F51D92D01961E205008E05CD /* PlayScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51D92CF1961E205008E05CD /* PlayScreenViewController.m */; };
+		F51D92D519623528008E05CD /* morven strip.png in Resources */ = {isa = PBXBuildFile; fileRef = F51D92D419623528008E05CD /* morven strip.png */; };
 		F548608B195B8AD600E4226C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F548608A195B8AD600E4226C /* QuartzCore.framework */; };
 		F548608E195B8B3100E4226C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F548608D195B8B3100E4226C /* AVFoundation.framework */; };
 		F5486090195B8C0F00E4226C /* Gangster hip hop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F548608F195B8C0F00E4226C /* Gangster hip hop.mp3 */; };
@@ -102,6 +103,7 @@
 		41B383A6195C36AB00DF4B8B /* bg4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg4.png; sourceTree = "<group>"; };
 		F51D92CE1961E205008E05CD /* PlayScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayScreenViewController.h; sourceTree = "<group>"; };
 		F51D92CF1961E205008E05CD /* PlayScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayScreenViewController.m; sourceTree = "<group>"; };
+		F51D92D419623528008E05CD /* morven strip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "morven strip.png"; sourceTree = "<group>"; };
 		F548608A195B8AD600E4226C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F548608D195B8B3100E4226C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		F548608F195B8C0F00E4226C /* Gangster hip hop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Gangster hip hop.mp3"; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 		41AC3235195C57FF002755EF /* reference images */ = {
 			isa = PBXGroup;
 			children = (
+				F51D92D419623528008E05CD /* morven strip.png */,
 				41AC3236195C5816002755EF /* 02.jpg */,
 				41AC3237195C5816002755EF /* 03.jpg */,
 				41AC3238195C5816002755EF /* 04.jpg */,
@@ -455,6 +458,7 @@
 				F5486090195B8C0F00E4226C /* Gangster hip hop.mp3 in Resources */,
 				F565CD5C195B6A5C002DA34C /* Main.storyboard in Resources */,
 				41B383AA195C36AB00DF4B8B /* play button.png in Resources */,
+				F51D92D519623528008E05CD /* morven strip.png in Resources */,
 				41AC323A195C5816002755EF /* 03.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

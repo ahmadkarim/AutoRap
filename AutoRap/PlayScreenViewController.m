@@ -8,6 +8,21 @@
 
 #import "PlayScreenViewController.h"
 
+
+
+#define checkResult(result,operation) (_checkResult((result),(operation),strrchr(__FILE__, '/')+1,__LINE__))
+static inline BOOL _checkResult(OSStatus result, const char *operation, const char* file, int line) {
+    if ( result != noErr ) {
+        int fourCC = CFSwapInt32HostToBig(result);
+        NSLog(@"%s:%d: %s result %d %08X %4.4s\n", file, line, operation, (int)result, (int)result, (char*)&fourCC);
+        return NO;
+    }
+    return YES;
+}
+
+
+
+
 @interface PlayScreenViewController ()
 
 @property (nonatomic, strong) AEAudioController *audioController;
@@ -51,11 +66,38 @@
         NSLog(@"loop is null");
     }
     
+    _group = [_audioController createChannelGroup];
     [_audioController addChannels:@[self.loop1]];
+    
+   
+    
 }
 
 
 - (IBAction)PlayButton:(UIButton *)sender {
+    
+    //============================Delay==================================
+    
+    if(!_delay){
+        self.delay = [[AEAudioUnitFilter alloc] initWithComponentDescription:AEAudioComponentDescriptionMake(kAudioUnitManufacturer_Apple, kAudioUnitType_Effect,kAudioUnitSubType_Delay) audioController:_audioController error:NULL] ;
+        [_audioController addFilter:_delay toChannelGroup:_group];
+    }
+    checkResult( AudioUnitSetParameter(_delay.audioUnit,kDelayParam_WetDryMix, 0, kAudioUnitScope_Global,50, 0),
+                "AudioUnitSetProperty(kDelayParam_WetDryMix)");
+    
+    NSLog(@"delay stufff called");
+    //=============================Reverb======================================
+    self.reverb = [[AEAudioUnitFilter alloc] initWithComponentDescription:AEAudioComponentDescriptionMake(kAudioUnitManufacturer_Apple, kAudioUnitType_Effect, kAudioUnitSubType_Sampler) audioController:_audioController error:NULL];
+    
+    AudioUnitSetParameter(_reverb.audioUnit, kAudioUnitSubType_Sampler, kAudioUnitScope_Global, 0, 100.f, 0);
+    
+    [_audioController addFilter:_reverb toChannelGroup:_group];
+    
+    self.reverb2=[[AEAudioUnitFilter alloc] initWithComponentDescription:AEAudioComponentDescriptionMake(kAudioUnitManufacturer_Apple, kAudioUnitType_Effect, kAudioUnitSubType_Reverb2)
+                                                         audioController:_audioController error:NULL];
+    
+    
+    //===================================================================
     
     if ( _player ) {
         [_audioController removeChannels:@[_player]];
@@ -69,6 +111,8 @@
         
         NSError *error = nil;
         self.player = [AEAudioFilePlayer audioFilePlayerWithURL:[NSURL fileURLWithPath:path] audioController:_audioController error:&error];
+        
+        
         
         if ( !_player ) {
             [[[UIAlertView alloc] initWithTitle:@"Error"
@@ -92,18 +136,21 @@
             //            strongSelf->_playButton.selected = NO;
      
         };
-        [_audioController addChannels:@[_player]];
+        [_audioController addChannels:@[_player] toChannelGroup:_group ];
         _loop1.channelIsMuted = NO;
         
         
         
-        [_loop1 setCurrentTime:5.00];
+     //   [_loop1 setCurrentTime:5.00];
         
     }
     
+    
+
+    
 }
 
-
+/*
 //============================DELAY BLOCK==========================
 - (void)delayVolueChanged:(UISlider*)sender {
     
@@ -120,7 +167,7 @@
     
 }
 //=================================================================
-
+*/
 
 
 
