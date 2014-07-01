@@ -87,9 +87,9 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
     
     NSLog(@"delay stufff called");
     //=============================Reverb======================================
-    self.reverb = [[AEAudioUnitFilter alloc] initWithComponentDescription:AEAudioComponentDescriptionMake(kAudioUnitManufacturer_Apple, kAudioUnitType_Effect, kAudioUnitSubType_Sampler) audioController:_audioController error:NULL];
+    self.reverb = [[AEAudioUnitFilter alloc] initWithComponentDescription:AEAudioComponentDescriptionMake(kAudioUnitManufacturer_Apple, kAudioUnitType_Effect, kAudioUnitSubType_Reverb2) audioController:_audioController error:NULL];
     
-    AudioUnitSetParameter(_reverb.audioUnit, kAudioUnitSubType_Sampler, kAudioUnitScope_Global, 0, 100.f, 0);
+    AudioUnitSetParameter(_reverb.audioUnit, kReverb2Param_MaxDelayTime, kAudioUnitScope_Global, 0, 1.f, 0);
     
     [_audioController addFilter:_reverb toChannelGroup:_group];
     
@@ -177,7 +177,7 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
     // Dispose of any resources that can be recreated.
 }
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -185,7 +185,8 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
 {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    _loop1.channelIsMuted=YES;
 }
-*/
+
 
 @end

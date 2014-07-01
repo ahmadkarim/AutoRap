@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		170F7E29196299F200D04D3F /* libTheAmazingAudioEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 170F7E261962995000D04D3F /* libTheAmazingAudioEngine.a */; };
+		170F7E2D19629ED400D04D3F /* splash Screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 170F7E2C19629ED400D04D3F /* splash Screen.jpg */; };
+		170F7E2E19629ED400D04D3F /* splash Screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 170F7E2C19629ED400D04D3F /* splash Screen.jpg */; };
 		41AC3239195C5816002755EF /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41AC3236195C5816002755EF /* 02.jpg */; };
 		41AC323A195C5816002755EF /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41AC3237195C5816002755EF /* 03.jpg */; };
 		41AC323B195C5816002755EF /* 04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41AC3238195C5816002755EF /* 04.jpg */; };
@@ -40,7 +43,6 @@
 		F565CD6A195B6A5C002DA34C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F565CD4C195B6A5B002DA34C /* UIKit.framework */; };
 		F565CD72195B6A5C002DA34C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F565CD70195B6A5C002DA34C /* InfoPlist.strings */; };
 		F565CD74195B6A5C002DA34C /* AutoRapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F565CD73195B6A5C002DA34C /* AutoRapTests.m */; };
-		F565CD85195B6CBD002DA34C /* libTheAmazingAudioEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F565CD82195B6C93002DA34C /* libTheAmazingAudioEngine.a */; };
 		F565CD87195B6CD2002DA34C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F565CD86195B6CD2002DA34C /* AudioToolbox.framework */; };
 		F565CD89195B6CDB002DA34C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F565CD88195B6CDB002DA34C /* Accelerate.framework */; };
 		F565CD9E195B6E41002DA34C /* AEExpanderFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = F565CD8D195B6E41002DA34C /* AEExpanderFilter.m */; };
@@ -64,6 +66,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		170F7E251962995000D04D3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 170F7E211962995000D04D3F /* TheAmazingAudioEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C215CEC1523A7D500D36CAD;
+			remoteInfo = TheAmazingAudioEngine;
+		};
+		170F7E27196299E600D04D3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 170F7E211962995000D04D3F /* TheAmazingAudioEngine.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C215CEB1523A7D500D36CAD;
+			remoteInfo = TheAmazingAudioEngine;
+		};
 		F565CD6B195B6A5C002DA34C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F565CD3D195B6A5B002DA34C /* Project object */;
@@ -71,23 +87,11 @@
 			remoteGlobalIDString = F565CD44195B6A5B002DA34C;
 			remoteInfo = AutoRap;
 		};
-		F565CD81195B6C93002DA34C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F565CD7D195B6C92002DA34C /* TheAmazingAudioEngine.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4C215CEC1523A7D500D36CAD;
-			remoteInfo = TheAmazingAudioEngine;
-		};
-		F565CD83195B6CA9002DA34C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F565CD7D195B6C92002DA34C /* TheAmazingAudioEngine.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 4C215CEB1523A7D500D36CAD;
-			remoteInfo = TheAmazingAudioEngine;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		170F7E211962995000D04D3F /* TheAmazingAudioEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TheAmazingAudioEngine.xcodeproj; path = "TheAmazingAudioEngine copy/TheAmazingAudioEngine.xcodeproj"; sourceTree = "<group>"; };
+		170F7E2C19629ED400D04D3F /* splash Screen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "splash Screen.jpg"; path = "Screen 4/splash Screen.jpg"; sourceTree = "<group>"; };
 		41AC3236195C5816002755EF /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
 		41AC3237195C5816002755EF /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
 		41AC3238195C5816002755EF /* 04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04.jpg; sourceTree = "<group>"; };
@@ -126,7 +130,6 @@
 		F565CD6F195B6A5C002DA34C /* AutoRapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoRapTests-Info.plist"; sourceTree = "<group>"; };
 		F565CD71195B6A5C002DA34C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F565CD73195B6A5C002DA34C /* AutoRapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoRapTests.m; sourceTree = "<group>"; };
-		F565CD7D195B6C92002DA34C /* TheAmazingAudioEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TheAmazingAudioEngine.xcodeproj; path = "../TheAmazingAudioEngine copy/TheAmazingAudioEngine.xcodeproj"; sourceTree = "<group>"; };
 		F565CD86195B6CD2002DA34C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		F565CD88195B6CDB002DA34C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		F565CD8C195B6E41002DA34C /* AEExpanderFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEExpanderFilter.h; sourceTree = "<group>"; };
@@ -153,11 +156,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170F7E29196299F200D04D3F /* libTheAmazingAudioEngine.a in Frameworks */,
 				F548608E195B8B3100E4226C /* AVFoundation.framework in Frameworks */,
 				F548608B195B8AD600E4226C /* QuartzCore.framework in Frameworks */,
 				F565CD89195B6CDB002DA34C /* Accelerate.framework in Frameworks */,
 				F565CD87195B6CD2002DA34C /* AudioToolbox.framework in Frameworks */,
-				F565CD85195B6CBD002DA34C /* libTheAmazingAudioEngine.a in Frameworks */,
 				F565CD4B195B6A5B002DA34C /* CoreGraphics.framework in Frameworks */,
 				F565CD4D195B6A5B002DA34C /* UIKit.framework in Frameworks */,
 				F565CD49195B6A5B002DA34C /* Foundation.framework in Frameworks */,
@@ -177,6 +180,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		170F7E221962995000D04D3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				170F7E261962995000D04D3F /* libTheAmazingAudioEngine.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		41AC3235195C57FF002755EF /* reference images */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,8 +233,8 @@
 		F565CD3C195B6A5B002DA34C = {
 			isa = PBXGroup;
 			children = (
+				170F7E211962995000D04D3F /* TheAmazingAudioEngine.xcodeproj */,
 				F565CD8B195B6E41002DA34C /* Modules */,
-				F565CD7D195B6C92002DA34C /* TheAmazingAudioEngine.xcodeproj */,
 				F565CD4E195B6A5B002DA34C /* AutoRap */,
 				F565CD6D195B6A5C002DA34C /* AutoRapTests */,
 				F565CD47195B6A5B002DA34C /* Frameworks */,
@@ -274,6 +285,7 @@
 		F565CD4F195B6A5B002DA34C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				170F7E2C19629ED400D04D3F /* splash Screen.jpg */,
 				41AC3235195C57FF002755EF /* reference images */,
 				41B3839C195C36AB00DF4B8B /* screen 2 */,
 				41B383A1195C36AB00DF4B8B /* Screen 3 */,
@@ -303,14 +315,6 @@
 				F565CD70195B6A5C002DA34C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F565CD7E195B6C92002DA34C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F565CD82195B6C93002DA34C /* libTheAmazingAudioEngine.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		F565CD8B195B6E41002DA34C /* Modules */ = {
@@ -359,7 +363,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F565CD84195B6CA9002DA34C /* PBXTargetDependency */,
+				170F7E28196299E600D04D3F /* PBXTargetDependency */,
 			);
 			name = AutoRap;
 			productName = AutoRap;
@@ -414,8 +418,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = F565CD7E195B6C92002DA34C /* Products */;
-					ProjectRef = F565CD7D195B6C92002DA34C /* TheAmazingAudioEngine.xcodeproj */;
+					ProductGroup = 170F7E221962995000D04D3F /* Products */;
+					ProjectRef = 170F7E211962995000D04D3F /* TheAmazingAudioEngine.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -427,11 +431,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		F565CD82195B6C93002DA34C /* libTheAmazingAudioEngine.a */ = {
+		170F7E261962995000D04D3F /* libTheAmazingAudioEngine.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libTheAmazingAudioEngine.a;
-			remoteRef = F565CD81195B6C93002DA34C /* PBXContainerItemProxy */;
+			remoteRef = 170F7E251962995000D04D3F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -456,6 +460,7 @@
 				F565CDAA195B6E41002DA34C /* README.markdown in Resources */,
 				41AC3243195C6559002755EF /* play button un press.png in Resources */,
 				F5486090195B8C0F00E4226C /* Gangster hip hop.mp3 in Resources */,
+				170F7E2D19629ED400D04D3F /* splash Screen.jpg in Resources */,
 				F565CD5C195B6A5C002DA34C /* Main.storyboard in Resources */,
 				41B383AA195C36AB00DF4B8B /* play button.png in Resources */,
 				F51D92D519623528008E05CD /* morven strip.png in Resources */,
@@ -470,6 +475,7 @@
 				F565CDAB195B6E41002DA34C /* README.markdown in Resources */,
 				F565CD72195B6A5C002DA34C /* InfoPlist.strings in Resources */,
 				F5486091195B8C0F00E4226C /* Gangster hip hop.mp3 in Resources */,
+				170F7E2E19629ED400D04D3F /* splash Screen.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,15 +520,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		170F7E28196299E600D04D3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TheAmazingAudioEngine;
+			targetProxy = 170F7E27196299E600D04D3F /* PBXContainerItemProxy */;
+		};
 		F565CD6C195B6A5C002DA34C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F565CD44195B6A5B002DA34C /* AutoRap */;
 			targetProxy = F565CD6B195B6A5C002DA34C /* PBXContainerItemProxy */;
-		};
-		F565CD84195B6CA9002DA34C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TheAmazingAudioEngine;
-			targetProxy = F565CD83195B6CA9002DA34C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -590,6 +596,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -623,6 +630,7 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
@@ -634,8 +642,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AutoRap/AutoRap-Prefix.pch";
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				"HEADER_SEARCH_PATHS[arch=*]" = "/Development/TheAmazingAudioEngine\\ copy/TheAmazingAudioEngine";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/vertexmedia/Desktop/Codes/AutoRap/TheAmazingAudioEngine\\ copy/TheAmazingAudioEngine",
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/vertexmedia/Desktop/Codes/AutoRap/TheAmazingAudioEngine\\ copy/TheAmazingAudioEngine";
 				INFOPLIST_FILE = "AutoRap/AutoRap-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -650,7 +661,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AutoRap/AutoRap-Prefix.pch";
-				"HEADER_SEARCH_PATHS[arch=*]" = "/Development/TheAmazingAudioEngine\\ copy/TheAmazingAudioEngine";
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/vertexmedia/Desktop/Codes/AutoRap/TheAmazingAudioEngine\\ copy/TheAmazingAudioEngine";
 				INFOPLIST_FILE = "AutoRap/AutoRap-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
