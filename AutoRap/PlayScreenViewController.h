@@ -19,6 +19,8 @@
 @interface PlayScreenViewController : UIViewController{
    
     AEChannelGroupRef _group;
+    NSTimer * timer0;
+    int incremetorForTimeSyncing;
 }
 
 @end

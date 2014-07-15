@@ -34,6 +34,7 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
 @property (nonatomic, strong) AEAudioUnitFilter *reverb;
 @property (nonatomic, strong) AEAudioUnitFilter *delay;
 @property (nonatomic, strong) AEAudioUnitFilter *reverb2;
+@property (nonatomic, strong) AEAudioUnitFilter *timePitchFilter;
 
 
 
@@ -47,6 +48,10 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    incremetorForTimeSyncing = 0;
+    
+    
     // Do any additional setup after loading the view.
     self.audioController = [[AEAudioController alloc] initWithAudioDescription:[AEAudioController nonInterleaved16BitStereoAudioDescription] inputEnabled:YES];
     _audioController.preferredBufferDuration = 0.005;
@@ -73,14 +78,29 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
     
 }
 
+-(void) sync1{
+    incremetorForTimeSyncing++;
+    [_player setCurrentTime:1.00];
+    
+    if (incremetorForTimeSyncing == 3) {
+        [timer0 invalidate];
+    }
+    
+}
 
 - (IBAction)PlayButton:(UIButton *)sender {
+    
+   timer0 = [NSTimer scheduledTimerWithTimeInterval:1.0
+                                     target:self
+                                   selector:@selector(sync1)
+                                   userInfo:nil
+                                    repeats:YES];
     
     //============================Delay==================================
     
     if(!_delay){
         self.delay = [[AEAudioUnitFilter alloc] initWithComponentDescription:AEAudioComponentDescriptionMake(kAudioUnitManufacturer_Apple, kAudioUnitType_Effect,kAudioUnitSubType_Delay) audioController:_audioController error:NULL] ;
-        [_audioController addFilter:_delay toChannelGroup:_group];
+       // [_audioController addFilter:_delay toChannelGroup:_group];
     }
     checkResult( AudioUnitSetParameter(_delay.audioUnit,kDelayParam_WetDryMix, 0, kAudioUnitScope_Global,50, 0),
                 "AudioUnitSetProperty(kDelayParam_WetDryMix)");
@@ -97,7 +117,20 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
                                                          audioController:_audioController error:NULL];
     
     
-    //===================================================================
+    //=============================TIME PITCH FILTER======================================
+    
+    self.timePitchFilter = [[AEAudioUnitFilter alloc] initWithComponentDescription:AEAudioComponentDescriptionMake(kAudioUnitManufacturer_Apple,
+                                                                                                              kAudioUnitType_FormatConverter,
+                                                                                                              kAudioUnitSubType_NewTimePitch) audioController:_audioController error:nil];
+    AudioUnitSetParameter(self.timePitchFilter.audioUnit,
+                          kNewTimePitchParam_Rate,
+                          kAudioUnitScope_Global,
+                          0,
+                          2./3.,
+                          0), "";
+    
+    [_audioController addFilter:_timePitchFilter toChannelGroup:_group];
+    //====================================================================================
     
     if ( _player ) {
         [_audioController removeChannels:@[_player]];
@@ -123,10 +156,7 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
             return;
         }
         
-        if (_loop1.currentTime == 5 ) {
-            NSLog(@"Played for 5 seconds %f",_loop1.currentTime);
-        }
-        
+
         NSLog(@"Played for 5 seconds %f",_loop1.currentTime);
         
         _player.removeUponFinish = YES;
@@ -140,7 +170,7 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
         _loop1.channelIsMuted = NO;
         
         
-        
+        NSLog(@"time of track %f ",_player.duration);
      //   [_loop1 setCurrentTime:5.00];
         
     }
