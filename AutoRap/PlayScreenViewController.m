@@ -47,6 +47,7 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
 
 - (void)viewDidLoad
 {
+    
     [super viewDidLoad];
     
     incremetorForTimeSyncing = 0;
@@ -75,6 +76,8 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
     [_audioController addChannels:@[self.loop1]];
     
    
+    
+        NSLog(@"%d",self.trackNumber.intValue);
     
 }
 

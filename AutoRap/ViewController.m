@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "PlayScreenViewController.h"
 
 
 
@@ -21,6 +22,8 @@
 @property (nonatomic, strong) AERecorder *recorder;
 @property (nonatomic, strong) AEAudioFilePlayer *player;
 
+//@property (nonatomic,strong) NSNumber * trackNumber;
+
 
 @end
 
@@ -33,6 +36,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
 	// Do any additional setup after loading the view, typically from a nib.
     
     self.audioController = [[AEAudioController alloc] initWithAudioDescription:[AEAudioController nonInterleaved16BitStereoAudioDescription] inputEnabled:YES];
@@ -55,7 +59,7 @@
     
    [_audioController addChannels:@[self.loop1]];
     
-    
+    NSLog(@"%d",self.trackNumber.intValue);
 
 }
 
@@ -145,6 +149,20 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // Get the new view controller using [segue destinationViewController].
+    
+    PlayScreenViewController * Pvc = [segue destinationViewController];
+    Pvc.trackNumber=self.trackNumber;
+    
+    // Pass the selected object to the new view controller.
 }
 
 @end

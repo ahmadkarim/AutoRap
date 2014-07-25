@@ -93,7 +93,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="CallSegue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sH6-af-WeW"/>
+                                    <action selector="CallSegue2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vxa-Ud-RW9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxb-ee-lrF" userLabel="Track3 - Gangster Hip Hop">
@@ -105,7 +105,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="CallSegue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aQf-Gl-6mJ"/>
+                                    <action selector="CallSegue3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EZt-aa-FRm"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -226,6 +226,16 @@
                                     <action selector="PlayButton:" destination="bgi-NW-o5g" eventType="touchUpInside" id="vqR-8R-FmW"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HJG-74-FM3">
+                                <rect key="frame" x="0.0" y="894" width="185" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="cYo-Pq-Qh9" kind="modal" id="6DG-zm-s1q"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -251,6 +261,7 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="knV-Pu-HiC"/>
         <segue reference="G81-Cn-q1w"/>
     </inferredMetricsTieBreakers>
 </document>

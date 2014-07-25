@@ -22,5 +22,6 @@
     NSTimer * timer0;
     int incremetorForTimeSyncing;
 }
+@property (nonatomic,strong) NSNumber * trackNumber;
 
 @end

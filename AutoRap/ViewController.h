@@ -19,6 +19,6 @@
     
     
 }
-
+@property (nonatomic,strong) NSNumber * trackNumber;
 
 @end

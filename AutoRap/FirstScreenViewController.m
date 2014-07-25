@@ -7,6 +7,8 @@
 //
 
 #import "FirstScreenViewController.h"
+#import "ViewController.h"
+
 
 @interface FirstScreenViewController ()
 
@@ -15,6 +17,8 @@
 @property (nonatomic, strong) AEAudioFilePlayer *loop1;
 @property (nonatomic, strong) AEAudioFilePlayer *loop2;
 @property (nonatomic, strong) AEAudioFilePlayer *loop3;
+@property (nonatomic,strong) NSNumber * trackNumber;
+
 
 @end
 
@@ -124,10 +128,32 @@
     
 }
 - (IBAction)CallSegue:(id)sender {
+    
+    self.trackNumber=[NSNumber numberWithInt:1];
     [self performSegueWithIdentifier: @"segue1" sender: self];
     _loop1.channelIsMuted=YES;
     _loop2.channelIsMuted=YES;
     _loop3.channelIsMuted=YES;
+
+    
+}
+- (IBAction)CallSegue2:(id)sender {
+     self.trackNumber=[NSNumber numberWithInt:2];
+    [self performSegueWithIdentifier: @"segue1" sender: self];
+    _loop1.channelIsMuted=YES;
+    _loop2.channelIsMuted=YES;
+    _loop3.channelIsMuted=YES;
+
+}
+- (IBAction)CallSegue3:(id)sender {
+    
+    self.trackNumber=[NSNumber numberWithInt:3];
+    [self performSegueWithIdentifier: @"segue1" sender: self];
+    _loop1.channelIsMuted=YES;
+    _loop2.channelIsMuted=YES;
+    _loop3.channelIsMuted=YES;
+    
+
 }
 
 
@@ -147,6 +173,10 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     // Get the new view controller using [segue destinationViewController].
+    
+    ViewController * vc = [segue destinationViewController];
+    vc.trackNumber=[NSNumber numberWithInt:self.trackNumber.intValue];
+    
     // Pass the selected object to the new view controller.
 }
 
