@@ -27,6 +27,8 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
 
 @property (nonatomic, strong) AEAudioController *audioController;
 @property (nonatomic, strong) AEAudioFilePlayer *loop1;
+@property (nonatomic, strong) AEAudioFilePlayer *loop2;
+@property (nonatomic, strong) AEAudioFilePlayer *loop3;
 
 @property (nonatomic, strong) AERecorder *recorder;
 @property (nonatomic, strong) AEAudioFilePlayer *player;
@@ -35,6 +37,7 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
 @property (nonatomic, strong) AEAudioUnitFilter *delay;
 @property (nonatomic, strong) AEAudioUnitFilter *reverb2;
 @property (nonatomic, strong) AEAudioUnitFilter *timePitchFilter;
+@property (nonatomic, strong) AEAudioUnitFilter *gain;
 
 
 
@@ -64,16 +67,33 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
     _loop1 = [AEAudioFilePlayer audioFilePlayerWithURL:[[NSBundle mainBundle] URLForResource:@"Gangster hip hop" withExtension:@"mp3"]
                                        audioController:_audioController
                                                  error:NULL];
-    _loop1.volume = 1.0;
+    _loop1.volume = 0.0;
     _loop1.channelIsMuted = YES;
-    _loop1.loop = YES;
+    _loop1.loop = NO;
+    // Create the second loop player
+    _loop2 = [AEAudioFilePlayer audioFilePlayerWithURL:[[NSBundle mainBundle] URLForResource:@"Grind n Teeth" withExtension:@"mp3"]
+                                       audioController:_audioController
+                                                 error:NULL];
+    _loop2.volume = 1.0;
+    _loop2.channelIsMuted = YES;
+    _loop2.loop = YES;
+    
+    
+    // Create the third loop player
+    _loop3 = [AEAudioFilePlayer audioFilePlayerWithURL:[[NSBundle mainBundle] URLForResource:@"CHeer ful hip hop" withExtension:@"mp3"]
+                                       audioController:_audioController
+                                                 error:NULL];
+    _loop3.volume = 1.0;
+    _loop3.channelIsMuted = YES;
+    _loop3.loop = YES;
+    
     
     if (_loop1 == NULL) {
         NSLog(@"loop is null");
     }
     
     _group = [_audioController createChannelGroup];
-    [_audioController addChannels:@[self.loop1]];
+    [_audioController addChannels:@[self.loop1,self.loop2,self.loop3]];
     
    
     
@@ -85,6 +105,12 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
     incremetorForTimeSyncing++;
     [_player setCurrentTime:1.00];
     
+   
+        p*=-1;
+   
+    NSLog(@"%f",p);
+    AudioUnitSetParameter(_timePitchFilter.audioUnit,kNewTimePitchParam_Pitch, 0, kAudioUnitScope_Global, p, 0);
+    
     if (incremetorForTimeSyncing == 3) {
         [timer0 invalidate];
     }
@@ -93,7 +119,7 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
 
 - (IBAction)PlayButton:(UIButton *)sender {
     
-   timer0 = [NSTimer scheduledTimerWithTimeInterval:1.0
+   timer0 = [NSTimer scheduledTimerWithTimeInterval:2.0
                                      target:self
                                    selector:@selector(sync1)
                                    userInfo:nil
@@ -116,9 +142,9 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
     
     [_audioController addFilter:_reverb toChannelGroup:_group];
     
-    self.reverb2=[[AEAudioUnitFilter alloc] initWithComponentDescription:AEAudioComponentDescriptionMake(kAudioUnitManufacturer_Apple, kAudioUnitType_Effect, kAudioUnitSubType_Reverb2)
-                                                         audioController:_audioController error:NULL];
-    
+//  //  self.reverb2=[[AEAudioUnitFilter alloc] initWithComponentDescription:AEAudioComponentDescriptionMake(kAudioUnitManufacturer_Apple, kAudioUnitType_Effect, kAudioUnitSubType_Reverb2)
+//                                                         audioController:_audioController error:NULL];
+//    
     
     //=============================TIME PITCH FILTER======================================
     
@@ -129,11 +155,18 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
                           kNewTimePitchParam_Rate,
                           kAudioUnitScope_Global,
                           0,
-                          2./3.,
+                          3./3.,
                           0), "";
+     p=-400.000002;
+  //  AudioUnitSetParameter(_timePitchFilter.audioUnit,kNewTimePitchParam_Pitch, 0, kAudioUnitScope_Global, p, 0);
+    
     
     [_audioController addFilter:_timePitchFilter toChannelGroup:_group];
     //====================================================================================
+    
+
+     //====================================================================================
+
     
     if ( _player ) {
         [_audioController removeChannels:@[_player]];
@@ -160,7 +193,7 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
         }
         
 
-        NSLog(@"Played for 5 seconds %f",_loop1.currentTime);
+   //     NSLog(@"Played for 5 seconds %f",_loop1.currentTime);
         
         _player.removeUponFinish = YES;
       //  __weak UIViewController *weakSelf = self;
@@ -170,7 +203,22 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
      
         };
         [_audioController addChannels:@[_player] toChannelGroup:_group ];
-        _loop1.channelIsMuted = NO;
+       
+        
+        if (self.trackNumber.intValue == 1) {
+            // stuff
+             _loop1.channelIsMuted = NO;
+        }else if (self.trackNumber.intValue==2){
+            
+            _loop2.channelIsMuted = NO;
+            
+        }else if (self.trackNumber.intValue == 3){
+            
+            _loop3.channelIsMuted = NO;
+            
+        }
+        
+        
         
         
         NSLog(@"time of track %f ",_player.duration);
@@ -219,6 +267,10 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
     _loop1.channelIsMuted=YES;
+    _loop2.channelIsMuted=YES;
+    _loop3.channelIsMuted=YES;
+    [_audioController removeChannels:@[_loop1,_loop2   ,_loop3]];
+    
 }
 
 

@@ -21,6 +21,7 @@
     AEChannelGroupRef _group;
     NSTimer * timer0;
     int incremetorForTimeSyncing;
+    Float32 p;
 }
 @property (nonatomic,strong) NSNumber * trackNumber;
 
