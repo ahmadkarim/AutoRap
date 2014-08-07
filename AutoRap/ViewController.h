@@ -17,6 +17,11 @@
 
 @interface ViewController : UIViewController{
     
+    BOOL isRecordButtonPressed;
+    __weak IBOutlet UIImageView *BlurImage;
+    __weak IBOutlet UILabel *RecordingLabel;
+    
+    __weak IBOutlet UILabel *pressAgainLabel;
     
 }
 @property (nonatomic,strong) NSNumber * trackNumber;

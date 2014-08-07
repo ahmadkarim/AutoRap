@@ -37,6 +37,9 @@
 {
     [super viewDidLoad];
     
+    isRecordButtonPressed=NO;
+
+    
 	// Do any additional setup after loading the view, typically from a nib.
     
     self.audioController = [[AEAudioController alloc] initWithAudioDescription:[AEAudioController nonInterleaved16BitStereoAudioDescription] inputEnabled:YES];
@@ -65,6 +68,8 @@
 
 
 - (IBAction)RecordButton:(UIButton *)sender {
+
+    isRecordButtonPressed=!isRecordButtonPressed;
     
     if ( _recorder ) {
         [_recorder finishRecording];
@@ -94,6 +99,23 @@
         [_audioController addInputReceiver:_recorder];
          NSLog(@"recorder created");
     }
+    
+   
+    if (isRecordButtonPressed) {
+        
+        BlurImage.hidden=NO;
+        RecordingLabel.hidden=NO;
+        pressAgainLabel.hidden=NO;
+    }else{
+        BlurImage.hidden=YES;
+        RecordingLabel.hidden=YES;
+        pressAgainLabel.hidden=YES;
+        
+        [self performSegueWithIdentifier:@"toPlayScreen" sender:nil];
+    }
+    
+    
+    
 }
 
 - (IBAction)PlayButton:(UIButton *)sender {

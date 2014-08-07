@@ -67,9 +67,9 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
     _loop1 = [AEAudioFilePlayer audioFilePlayerWithURL:[[NSBundle mainBundle] URLForResource:@"Gangster hip hop" withExtension:@"mp3"]
                                        audioController:_audioController
                                                  error:NULL];
-    _loop1.volume = 0.0;
+    _loop1.volume = 1.0;
     _loop1.channelIsMuted = YES;
-    _loop1.loop = NO;
+    _loop1.loop = YES;
     // Create the second loop player
     _loop2 = [AEAudioFilePlayer audioFilePlayerWithURL:[[NSBundle mainBundle] URLForResource:@"Grind n Teeth" withExtension:@"mp3"]
                                        audioController:_audioController
@@ -117,6 +117,23 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
     
 }
 
+-(void)LastMethod{
+    
+    BlurImage.hidden=NO;
+    TapToResetLabel.hidden=NO;
+    lastButton.hidden=NO;
+    
+    
+    //[self performSegueWithIdentifier:@"toFirstScreen" sender:nil];
+    
+    _loop1.channelIsMuted=YES;
+    _loop2.channelIsMuted=YES;
+    _loop3.channelIsMuted=YES;
+    [_audioController removeChannels:@[_loop1,_loop2   ,_loop3]];
+}
+
+
+
 - (IBAction)PlayButton:(UIButton *)sender {
     
    timer0 = [NSTimer scheduledTimerWithTimeInterval:2.0
@@ -124,6 +141,15 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
                                    selector:@selector(sync1)
                                    userInfo:nil
                                     repeats:YES];
+   
+    
+    timer1 = [NSTimer scheduledTimerWithTimeInterval:10.0
+                                              target:self
+                                            selector:@selector(LastMethod)
+                                            userInfo:nil
+                                             repeats:NO];
+    
+    
     
     //============================Delay==================================
     
@@ -266,10 +292,7 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
 {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
-    _loop1.channelIsMuted=YES;
-    _loop2.channelIsMuted=YES;
-    _loop3.channelIsMuted=YES;
-    [_audioController removeChannels:@[_loop1,_loop2   ,_loop3]];
+
     
 }
 
