@@ -20,8 +20,14 @@
    
     AEChannelGroupRef _group;
     NSTimer * timer0;
+    NSTimer * timer1;
     int incremetorForTimeSyncing;
     Float32 p;
+   
+    __weak IBOutlet UIButton *lastButton;
+    
+    __weak IBOutlet UIImageView *BlurImage;
+    __weak IBOutlet UILabel *TapToResetLabel;
 }
 @property (nonatomic,strong) NSNumber * trackNumber;
 

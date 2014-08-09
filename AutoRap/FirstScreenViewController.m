@@ -147,11 +147,13 @@
 }
 - (IBAction)CallSegue3:(id)sender {
     
-    self.trackNumber=[NSNumber numberWithInt:3];
-    [self performSegueWithIdentifier: @"segue1" sender: self];
     _loop1.channelIsMuted=YES;
     _loop2.channelIsMuted=YES;
     _loop3.channelIsMuted=YES;
+    
+    self.trackNumber=[NSNumber numberWithInt:3];
+    [self performSegueWithIdentifier: @"segue1" sender: self];
+
     
 
 }
@@ -176,6 +178,10 @@
     
     ViewController * vc = [segue destinationViewController];
     vc.trackNumber=[NSNumber numberWithInt:self.trackNumber.intValue];
+    
+    _loop1.channelIsMuted=YES;
+    _loop2.channelIsMuted=YES;
+    _loop3.channelIsMuted=YES;
     
     // Pass the selected object to the new view controller.
 }

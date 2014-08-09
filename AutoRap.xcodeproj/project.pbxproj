@@ -10,15 +10,23 @@
 		170F7E29196299F200D04D3F /* libTheAmazingAudioEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 170F7E261962995000D04D3F /* libTheAmazingAudioEngine.a */; };
 		170F7E2D19629ED400D04D3F /* splash Screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 170F7E2C19629ED400D04D3F /* splash Screen.jpg */; };
 		170F7E2E19629ED400D04D3F /* splash Screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 170F7E2C19629ED400D04D3F /* splash Screen.jpg */; };
+		1799D13F1993761C00553CEE /* recording.png in Resources */ = {isa = PBXBuildFile; fileRef = 1799D13E1993761C00553CEE /* recording.png */; };
+		1799D1401993761C00553CEE /* recording.png in Resources */ = {isa = PBXBuildFile; fileRef = 1799D13E1993761C00553CEE /* recording.png */; };
+		1799D1421993813C00553CEE /* record song.png in Resources */ = {isa = PBXBuildFile; fileRef = 1799D1411993813C00553CEE /* record song.png */; };
+		1799D1431993813C00553CEE /* record song.png in Resources */ = {isa = PBXBuildFile; fileRef = 1799D1411993813C00553CEE /* record song.png */; };
+		1799D1451993814700553CEE /* play song.png in Resources */ = {isa = PBXBuildFile; fileRef = 1799D1441993814700553CEE /* play song.png */; };
+		1799D1461993814700553CEE /* play song.png in Resources */ = {isa = PBXBuildFile; fileRef = 1799D1441993814700553CEE /* play song.png */; };
+		1799D1481993814E00553CEE /* blur alpha.png in Resources */ = {isa = PBXBuildFile; fileRef = 1799D1471993814E00553CEE /* blur alpha.png */; };
+		1799D1491993814E00553CEE /* blur alpha.png in Resources */ = {isa = PBXBuildFile; fileRef = 1799D1471993814E00553CEE /* blur alpha.png */; };
+		1799D14B19938C8000553CEE /* record blur.png in Resources */ = {isa = PBXBuildFile; fileRef = 1799D14A19938C8000553CEE /* record blur.png */; };
+		1799D14C19938C8000553CEE /* record blur.png in Resources */ = {isa = PBXBuildFile; fileRef = 1799D14A19938C8000553CEE /* record blur.png */; };
 		17E0F139198269380049144A /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E0F135198269380049144A /* bar.png */; };
 		17E0F13A198269380049144A /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E0F136198269380049144A /* bg.png */; };
-		17E0F13C198269380049144A /* timeline in Resources */ = {isa = PBXBuildFile; fileRef = 17E0F138198269380049144A /* timeline */; };
 		17E0F1401982695F0049144A /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E0F13D1982695F0049144A /* 02.png */; };
 		17E0F1411982695F0049144A /* play button press.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E0F13E1982695F0049144A /* play button press.png */; };
 		17E0F1421982695F0049144A /* play button.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E0F13F1982695F0049144A /* play button.png */; };
 		17E0F147198269820049144A /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E0F143198269820049144A /* 03.png */; };
 		17E0F148198269820049144A /* record button .png in Resources */ = {isa = PBXBuildFile; fileRef = 17E0F144198269820049144A /* record button .png */; };
-		17E0F149198269820049144A /* record button press in Resources */ = {isa = PBXBuildFile; fileRef = 17E0F145198269820049144A /* record button press */; };
 		17E0F14A198269820049144A /* record button press.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E0F146198269820049144A /* record button press.png */; };
 		17E0F14C19826F1C0049144A /* Grind n Teeth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17E0F14B19826F1C0049144A /* Grind n Teeth.mp3 */; };
 		17E0F14E19826F250049144A /* CHeer ful hip hop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17E0F14D19826F250049144A /* CHeer ful hip hop.mp3 */; };
@@ -105,15 +113,18 @@
 /* Begin PBXFileReference section */
 		170F7E211962995000D04D3F /* TheAmazingAudioEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TheAmazingAudioEngine.xcodeproj; path = "TheAmazingAudioEngine copy/TheAmazingAudioEngine.xcodeproj"; sourceTree = "<group>"; };
 		170F7E2C19629ED400D04D3F /* splash Screen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "splash Screen.jpg"; path = "Screen 4/splash Screen.jpg"; sourceTree = "<group>"; };
+		1799D13E1993761C00553CEE /* recording.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recording.png; sourceTree = "<group>"; };
+		1799D1411993813C00553CEE /* record song.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "record song.png"; sourceTree = "<group>"; };
+		1799D1441993814700553CEE /* play song.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play song.png"; sourceTree = "<group>"; };
+		1799D1471993814E00553CEE /* blur alpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blur alpha.png"; sourceTree = "<group>"; };
+		1799D14A19938C8000553CEE /* record blur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "record blur.png"; sourceTree = "<group>"; };
 		17E0F135198269380049144A /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
 		17E0F136198269380049144A /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
-		17E0F138198269380049144A /* timeline */ = {isa = PBXFileReference; lastKnownFileType = file; path = timeline; sourceTree = "<group>"; };
 		17E0F13D1982695F0049144A /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
 		17E0F13E1982695F0049144A /* play button press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play button press.png"; sourceTree = "<group>"; };
 		17E0F13F1982695F0049144A /* play button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play button.png"; sourceTree = "<group>"; };
 		17E0F143198269820049144A /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
 		17E0F144198269820049144A /* record button .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "record button .png"; sourceTree = "<group>"; };
-		17E0F145198269820049144A /* record button press */ = {isa = PBXFileReference; lastKnownFileType = file; path = "record button press"; sourceTree = "<group>"; };
 		17E0F146198269820049144A /* record button press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "record button press.png"; sourceTree = "<group>"; };
 		17E0F14B19826F1C0049144A /* Grind n Teeth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Grind n Teeth.mp3"; sourceTree = "<group>"; };
 		17E0F14D19826F250049144A /* CHeer ful hip hop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "CHeer ful hip hop.mp3"; sourceTree = "<group>"; };
@@ -231,7 +242,6 @@
 				17E0F15219827F140049144A /* play button screen 1.png */,
 				17E0F135198269380049144A /* bar.png */,
 				17E0F136198269380049144A /* bg.png */,
-				17E0F138198269380049144A /* timeline */,
 			);
 			name = Screen1;
 			sourceTree = "<group>";
@@ -239,6 +249,9 @@
 		17E0F1331982691B0049144A /* Screen2 */ = {
 			isa = PBXGroup;
 			children = (
+				1799D1471993814E00553CEE /* blur alpha.png */,
+				1799D14A19938C8000553CEE /* record blur.png */,
+				1799D1411993813C00553CEE /* record song.png */,
 				17E0F13D1982695F0049144A /* 02.png */,
 				17E0F13E1982695F0049144A /* play button press.png */,
 				17E0F13F1982695F0049144A /* play button.png */,
@@ -249,9 +262,10 @@
 		17E0F134198269230049144A /* Screen3 */ = {
 			isa = PBXGroup;
 			children = (
+				1799D1441993814700553CEE /* play song.png */,
+				1799D13E1993761C00553CEE /* recording.png */,
 				17E0F143198269820049144A /* 03.png */,
 				17E0F144198269820049144A /* record button .png */,
-				17E0F145198269820049144A /* record button press */,
 				17E0F146198269820049144A /* record button press.png */,
 			);
 			name = Screen3;
@@ -471,7 +485,7 @@
 				ORGANIZATIONNAME = "Ahmad Karim";
 				TargetAttributes = {
 					F565CD44195B6A5B002DA34C = {
-						DevelopmentTeam = N2S353Z69T;
+						DevelopmentTeam = VM9TZ5P7XR;
 					};
 					F565CD65195B6A5C002DA34C = {
 						TestTargetID = F565CD44195B6A5B002DA34C;
@@ -520,14 +534,13 @@
 			files = (
 				17E0F147198269820049144A /* 03.png in Resources */,
 				17E0F1401982695F0049144A /* 02.png in Resources */,
-				17E0F149198269820049144A /* record button press in Resources */,
 				41B383B0195C36AB00DF4B8B /* bg4.png in Resources */,
+				1799D1481993814E00553CEE /* blur alpha.png in Resources */,
 				41B383AD195C36AB00DF4B8B /* bg3.png in Resources */,
 				41B383AC195C36AB00DF4B8B /* time line.png in Resources */,
 				F565CD61195B6A5C002DA34C /* Images.xcassets in Resources */,
 				41AC323B195C5816002755EF /* 04.jpg in Resources */,
 				F565CD53195B6A5C002DA34C /* InfoPlist.strings in Resources */,
-				17E0F13C198269380049144A /* timeline in Resources */,
 				17E0F14C19826F1C0049144A /* Grind n Teeth.mp3 in Resources */,
 				41AC3239195C5816002755EF /* 02.jpg in Resources */,
 				41AC323E195C6535002755EF /* record button press.png in Resources */,
@@ -537,16 +550,20 @@
 				41B383A9195C36AB00DF4B8B /* bg2.png in Resources */,
 				41B383AB195C36AB00DF4B8B /* song bar.png in Resources */,
 				41AC323F195C6535002755EF /* record button un press.png in Resources */,
+				1799D14B19938C8000553CEE /* record blur.png in Resources */,
+				1799D13F1993761C00553CEE /* recording.png in Resources */,
 				17E0F14E19826F250049144A /* CHeer ful hip hop.mp3 in Resources */,
 				F565CDAA195B6E41002DA34C /* README.markdown in Resources */,
 				41AC3243195C6559002755EF /* play button un press.png in Resources */,
 				F5486090195B8C0F00E4226C /* Gangster hip hop.mp3 in Resources */,
 				170F7E2D19629ED400D04D3F /* splash Screen.jpg in Resources */,
 				F565CD5C195B6A5C002DA34C /* Main.storyboard in Resources */,
+				1799D1451993814700553CEE /* play song.png in Resources */,
 				17E0F139198269380049144A /* bar.png in Resources */,
 				F51D92D519623528008E05CD /* morven strip.png in Resources */,
 				17E0F1411982695F0049144A /* play button press.png in Resources */,
 				17E0F13A198269380049144A /* bg.png in Resources */,
+				1799D1421993813C00553CEE /* record song.png in Resources */,
 				17E0F14A198269820049144A /* record button press.png in Resources */,
 				41AC323A195C5816002755EF /* 03.jpg in Resources */,
 				17E0F148198269820049144A /* record button .png in Resources */,
@@ -557,10 +574,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1799D1431993813C00553CEE /* record song.png in Resources */,
 				F565CDAB195B6E41002DA34C /* README.markdown in Resources */,
 				F565CD72195B6A5C002DA34C /* InfoPlist.strings in Resources */,
 				F5486091195B8C0F00E4226C /* Gangster hip hop.mp3 in Resources */,
+				1799D1491993814E00553CEE /* blur alpha.png in Resources */,
 				170F7E2E19629ED400D04D3F /* splash Screen.jpg in Resources */,
+				1799D14C19938C8000553CEE /* record blur.png in Resources */,
+				1799D1461993814700553CEE /* play song.png in Resources */,
+				1799D1401993761C00553CEE /* recording.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
