@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="bCZ-jy-MKI">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
     </dependencies>
@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="5kV-XY-uF1">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new bg 9Aug.png" translatesAutoresizingMaskIntoConstraints="NO" id="5kV-XY-uF1">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -43,9 +43,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aoC-xg-dKh" userLabel="PlayIcon1">
-                                <rect key="frame" x="20" y="233" width="116" height="87"/>
+                                <rect key="frame" x="29" y="233" width="100" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="play button screen 1.png">
+                                <state key="normal" image="button-01 9Aug.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -53,9 +53,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EiH-eG-Plh" userLabel="PlayIcon2">
-                                <rect key="frame" x="17" y="390" width="119" height="110"/>
+                                <rect key="frame" x="27" y="402" width="100" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="play button screen 1.png">
+                                <state key="normal" image="button-01 9Aug.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -63,9 +63,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dq8-TU-FuY" userLabel="PlayIcon3">
-                                <rect key="frame" x="20" y="557" width="116" height="95"/>
+                                <rect key="frame" x="28" y="561" width="100" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="play button screen 1.png">
+                                <state key="normal" image="button-01 9Aug.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -76,7 +76,7 @@
                                 <rect key="frame" x="268" y="249" width="274" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="29"/>
-                                <state key="normal" title="Gangster Hip Hop">
+                                <state key="normal" title="Tune 1">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -88,7 +88,7 @@
                                 <rect key="frame" x="242" y="407" width="327" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="29"/>
-                                <state key="normal" title="Grind &amp; Teeth">
+                                <state key="normal" title="Tune 2">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -100,7 +100,7 @@
                                 <rect key="frame" x="242" y="579" width="327" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="29"/>
-                                <state key="normal" title="Cheerful Hip Hop">
+                                <state key="normal" title="Tune 3">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -108,14 +108,61 @@
                                     <action selector="CallSegue3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EZt-aa-FRm"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="msg3 31jan.png" translatesAutoresizingMaskIntoConstraints="NO" id="IbZ-jE-8fw">
+                                <rect key="frame" x="34" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="nnm-OS-t3M"/>
+                    <connections>
+                        <outlet property="MessagesImageView" destination="IbZ-jE-8fw" id="yFH-PZ-cYa"/>
+                        <outlet property="PlayButtonOne" destination="aoC-xg-dKh" id="bM1-e4-16g"/>
+                        <outlet property="PlayButtonThree" destination="Dq8-TU-FuY" id="Pqu-f0-6yi"/>
+                        <outlet property="PlayButtonTwo" destination="EiH-eG-Plh" id="mXI-va-Kw3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3105" y="103"/>
+        </scene>
+        <!--Splash Screen View Controller-->
+        <scene sceneID="ZIb-Ct-rEF">
+            <objects>
+                <viewController id="bCZ-jy-MKI" customClass="SplashScreenViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4H7-3H-5RU"/>
+                        <viewControllerLayoutGuide type="bottom" id="3Xl-zs-0g7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XBS-Qu-I36">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YdJ-iq-X3x">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="splash screen 9Aug.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="zI8-Zf-zsF"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="msg2 31jan.png" translatesAutoresizingMaskIntoConstraints="NO" id="xdh-cf-TuO">
+                                <rect key="frame" x="34" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="MessagesImageView" destination="xdh-cf-TuO" id="Pfu-eN-KAg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uvc-mB-gqe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4386" y="103"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hdc-Yl-Uew">
@@ -129,7 +176,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="record song.png" translatesAutoresizingMaskIntoConstraints="NO" id="pB4-Qh-vfs">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new record song 9Aug.png" translatesAutoresizingMaskIntoConstraints="NO" id="pB4-Qh-vfs">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -143,7 +190,7 @@
                                     <segue destination="bgi-NW-o5g" kind="modal" identifier="toPlayScreen" id="zKa-fc-3FJ"/>
                                 </connections>
                             </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="record blur.png" translatesAutoresizingMaskIntoConstraints="NO" id="LFo-M7-yGS" userLabel="BlurImage - recording.png">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new record song blur 9Aug.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="LFo-M7-yGS" userLabel="BlurImage - recording.png">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -181,21 +228,27 @@
                                 <rect key="frame" x="212" y="222" width="425" height="156"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="67"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Press the record Button again to stop recording" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MtG-ng-HMX">
                                 <rect key="frame" x="183" y="673" width="454" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="msg1 31jan.png" translatesAutoresizingMaskIntoConstraints="NO" id="3so-tc-p5j">
+                                <rect key="frame" x="34" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="YT5-Q0-MzM"/>
                     <connections>
                         <outlet property="BlurImage" destination="LFo-M7-yGS" id="fXk-AK-trS"/>
+                        <outlet property="MessagesImageView" destination="3so-tc-p5j" id="Ci7-lx-aQg"/>
                         <outlet property="RecordingLabel" destination="65J-iL-gtn" id="nTZ-jS-Z32"/>
                         <outlet property="pressAgainLabel" destination="MtG-ng-HMX" id="9yI-g2-Ola"/>
                     </connections>
@@ -220,7 +273,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="play song.png" translatesAutoresizingMaskIntoConstraints="NO" id="neg-Nw-gQa">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="play song 9Aug.png" translatesAutoresizingMaskIntoConstraints="NO" id="neg-Nw-gQa">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -234,7 +287,7 @@
                                     <action selector="PlayButton:" destination="bgi-NW-o5g" eventType="touchUpInside" id="vqR-8R-FmW"/>
                                 </connections>
                             </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="record blur.png" translatesAutoresizingMaskIntoConstraints="NO" id="w8a-uI-H8V" userLabel="BlurImage">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new record song blur 9Aug.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="w8a-uI-H8V" userLabel="BlurImage">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1029"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -245,7 +298,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" identifier="ToFirstScreen" id="jmx-k8-Vfq"/>
+                                    <segue destination="bCZ-jy-MKI" kind="modal" id="F53-iQ-ucJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HJG-74-FM3">
@@ -262,33 +315,43 @@
                                 <rect key="frame" x="215" y="391" width="339" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="msg2 31jan.png" translatesAutoresizingMaskIntoConstraints="NO" id="jrm-6t-Bz9">
+                                <rect key="frame" x="34" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="JGQ-Jg-L81"/>
                     <connections>
                         <outlet property="BlurImage" destination="w8a-uI-H8V" id="14F-kz-NXx"/>
+                        <outlet property="MessagesImageView" destination="jrm-6t-Bz9" id="k8x-iF-kat"/>
                         <outlet property="TapToResetLabel" destination="0Hl-SK-qKF" id="jDc-1g-3wl"/>
                         <outlet property="lastButton" destination="RhB-WP-CLI" id="9Ub-pP-qv3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5C4-na-jRa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2118" y="-1461"/>
+            <point key="canvasLocation" x="-2922" y="-1461"/>
         </scene>
     </scenes>
     <resources>
         <image name="bar.png" width="684" height="105"/>
-        <image name="bg.png" width="768" height="1024"/>
         <image name="bg4.png" width="768" height="1024"/>
-        <image name="play button screen 1.png" width="42" height="42"/>
+        <image name="button-01 9Aug.png" width="1009" height="1025"/>
+        <image name="msg1 31jan.png" width="768" height="1024"/>
+        <image name="msg2 31jan.png" width="768" height="1024"/>
+        <image name="msg3 31jan.png" width="768" height="1024"/>
+        <image name="new bg 9Aug.png" width="768" height="1024"/>
+        <image name="new record song 9Aug.png" width="768" height="1024"/>
+        <image name="new record song blur 9Aug.PNG" width="768" height="1024"/>
         <image name="play button un press.png" width="295" height="253"/>
-        <image name="play song.png" width="768" height="1024"/>
-        <image name="record blur.png" width="768" height="1024"/>
+        <image name="play song 9Aug.png" width="768" height="1024"/>
         <image name="record button un press.png" width="294" height="252"/>
-        <image name="record song.png" width="768" height="1024"/>
+        <image name="splash screen 9Aug.png" width="768" height="1024"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -296,7 +359,7 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="jmx-k8-Vfq"/>
-        <segue reference="6DG-zm-s1q"/>
+        <segue reference="knV-Pu-HiC"/>
+        <segue reference="G81-Cn-q1w"/>
     </inferredMetricsTieBreakers>
 </document>

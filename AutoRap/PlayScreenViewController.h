@@ -28,6 +28,7 @@
     
     __weak IBOutlet UIImageView *BlurImage;
     __weak IBOutlet UILabel *TapToResetLabel;
+    IBOutlet UIImageView *MessagesImageView;
 }
 @property (nonatomic,strong) NSNumber * trackNumber;
 

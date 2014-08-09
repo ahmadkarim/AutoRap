@@ -36,6 +36,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [NSTimer scheduledTimerWithTimeInterval:1.5 target:self selector:@selector(MessageChanger) userInfo:nil repeats:YES];
     // Do any additional setup after loading the view.
     self.audioController = [[AEAudioController alloc] initWithAudioDescription:[AEAudioController nonInterleaved16BitStereoAudioDescription] inputEnabled:YES];
     _audioController.preferredBufferDuration = 0.005;
@@ -81,8 +82,20 @@
     
     if (!_loop1.channelIsMuted) {
         _loop1.channelIsMuted=YES;
-    }else{
+        UIImage *PlayButton1 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        [PlayButtonOne setImage:PlayButton1 forState:UIControlStateNormal];
+        UIImage *PlayButton2 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        [PlayButtonTwo setImage:PlayButton2 forState:UIControlStateNormal];
+        UIImage *PlayButton3 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        [PlayButtonThree setImage:PlayButton3 forState:UIControlStateNormal];
         
+    }else{
+        UIImage *pauseButton2 = [UIImage imageNamed:@"button-02 9Aug.png"];
+        [PlayButtonOne setImage:pauseButton2 forState:UIControlStateNormal];
+        UIImage *PlayButton2 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        [PlayButtonTwo setImage:PlayButton2 forState:UIControlStateNormal];
+        UIImage *PlayButton3 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        [PlayButtonThree setImage:PlayButton3 forState:UIControlStateNormal];
         _loop1.channelIsMuted=NO;
         _loop2.channelIsMuted=YES;
         _loop3.channelIsMuted=YES;
@@ -97,8 +110,19 @@
     
     if (!_loop2.channelIsMuted) {
         _loop2.channelIsMuted=YES;
+        UIImage *PlayButton2 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        [PlayButtonTwo setImage:PlayButton2 forState:UIControlStateNormal];
+        UIImage *PlayButton1 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        [PlayButtonOne setImage:PlayButton1 forState:UIControlStateNormal];
+        UIImage *PlayButton3 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        [PlayButtonThree setImage:PlayButton3 forState:UIControlStateNormal];
     }else{
-        
+        UIImage *pauseButton2 = [UIImage imageNamed:@"button-02 9Aug.png"];
+        [PlayButtonTwo setImage:pauseButton2 forState:UIControlStateNormal];
+        UIImage *PlayButton1 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        [PlayButtonOne setImage:PlayButton1 forState:UIControlStateNormal];
+        UIImage *PlayButton3 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        [PlayButtonThree setImage:PlayButton3 forState:UIControlStateNormal];
         _loop1.channelIsMuted=YES;
         _loop2.channelIsMuted=NO;
         _loop3.channelIsMuted=YES;
@@ -116,8 +140,19 @@
     
     if (!_loop3.channelIsMuted) {
         _loop3.channelIsMuted=YES;
+        UIImage *PlayButton3 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        [PlayButtonThree setImage:PlayButton3 forState:UIControlStateNormal];
+        UIImage *PlayButton2 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        [PlayButtonTwo setImage:PlayButton2 forState:UIControlStateNormal];
+        UIImage *PlayButton1 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        [PlayButtonOne setImage:PlayButton1 forState:UIControlStateNormal];
     }else{
-        
+        UIImage *pauseButton2 = [UIImage imageNamed:@"button-02 9Aug.png"];
+        [PlayButtonThree setImage:pauseButton2 forState:UIControlStateNormal];
+        UIImage *PlayButton2 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        [PlayButtonTwo setImage:PlayButton2 forState:UIControlStateNormal];
+        UIImage *PlayButton1 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        [PlayButtonOne setImage:PlayButton1 forState:UIControlStateNormal];
         _loop1.channelIsMuted=YES;
         _loop2.channelIsMuted=YES;
         _loop3.channelIsMuted=NO;
@@ -158,6 +193,15 @@
 
 }
 
+-(void)MessageChanger{
+    
+    NSArray *MessageImages = [NSArray arrayWithObjects:@"msg1 31jan.png",@"msg2 31jan.png",@"msg3 31jan.png", nil];
+    int index = arc4random() % [MessageImages count];
+    
+    UIImage *messages =[UIImage imageNamed:[MessageImages objectAtIndex:index]];
+    MessagesImageView.image = messages;
+    
+}
 
 
 

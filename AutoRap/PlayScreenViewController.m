@@ -53,6 +53,9 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
     
     [super viewDidLoad];
     
+    
+    [NSTimer scheduledTimerWithTimeInterval:1.5 target:self selector:@selector(MessageChanger) userInfo:nil repeats:YES];
+    
     incremetorForTimeSyncing = 0;
     
     
@@ -254,6 +257,16 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
     
     
 
+    
+}
+
+-(void)MessageChanger{
+    
+    NSArray *MessageImages = [NSArray arrayWithObjects:@"msg1 31jan.png",@"msg2 31jan.png",@"msg3 31jan.png", nil];
+    int index = arc4random() % [MessageImages count];
+    
+    UIImage *messages =[UIImage imageNamed:[MessageImages objectAtIndex:index]];
+    MessagesImageView.image = messages;
     
 }
 

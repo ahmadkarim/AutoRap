@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		170F7E29196299F200D04D3F /* libTheAmazingAudioEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 170F7E261962995000D04D3F /* libTheAmazingAudioEngine.a */; };
 		170F7E2D19629ED400D04D3F /* splash Screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 170F7E2C19629ED400D04D3F /* splash Screen.jpg */; };
 		170F7E2E19629ED400D04D3F /* splash Screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 170F7E2C19629ED400D04D3F /* splash Screen.jpg */; };
 		1799D13F1993761C00553CEE /* recording.png in Resources */ = {isa = PBXBuildFile; fileRef = 1799D13E1993761C00553CEE /* recording.png */; };
@@ -32,6 +31,7 @@
 		17E0F14E19826F250049144A /* CHeer ful hip hop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17E0F14D19826F250049144A /* CHeer ful hip hop.mp3 */; };
 		17E0F151198270590049144A /* FirstScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E0F150198270590049144A /* FirstScreenViewController.m */; };
 		17E0F15319827F140049144A /* play button screen 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E0F15219827F140049144A /* play button screen 1.png */; };
+		414CDEBB19963E4E003AFE20 /* libTheAmazingAudioEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4173AF4A19963CFC0098F6F4 /* libTheAmazingAudioEngine.a */; };
 		41AC3239195C5816002755EF /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41AC3236195C5816002755EF /* 02.jpg */; };
 		41AC323A195C5816002755EF /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41AC3237195C5816002755EF /* 03.jpg */; };
 		41AC323B195C5816002755EF /* 04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41AC3238195C5816002755EF /* 04.jpg */; };
@@ -44,6 +44,19 @@
 		41B383AC195C36AB00DF4B8B /* time line.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B383A0195C36AB00DF4B8B /* time line.png */; };
 		41B383AD195C36AB00DF4B8B /* bg3.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B383A2195C36AB00DF4B8B /* bg3.png */; };
 		41B383B0195C36AB00DF4B8B /* bg4.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B383A6195C36AB00DF4B8B /* bg4.png */; };
+		41BAB4A119964321002FEFD3 /* button-01 9Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BAB49919964321002FEFD3 /* button-01 9Aug.png */; };
+		41BAB4A219964321002FEFD3 /* button-02 9Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BAB49A19964321002FEFD3 /* button-02 9Aug.png */; };
+		41BAB4A319964321002FEFD3 /* new bg 9Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BAB49B19964321002FEFD3 /* new bg 9Aug.png */; };
+		41BAB4A419964321002FEFD3 /* new record song 9Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BAB49C19964321002FEFD3 /* new record song 9Aug.png */; };
+		41BAB4A519964321002FEFD3 /* new record song blur 9Aug.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 41BAB49D19964321002FEFD3 /* new record song blur 9Aug.PNG */; };
+		41BAB4A619964321002FEFD3 /* play song 9Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BAB49E19964321002FEFD3 /* play song 9Aug.png */; };
+		41BAB4A719964321002FEFD3 /* select tune 9Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BAB49F19964321002FEFD3 /* select tune 9Aug.png */; };
+		41BAB4A819964321002FEFD3 /* splash screen 9Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BAB4A019964321002FEFD3 /* splash screen 9Aug.png */; };
+		41BAB4AA19964E67002FEFD3 /* pause button 9 Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BAB4A919964E67002FEFD3 /* pause button 9 Aug.png */; };
+		41BAB4AF19965594002FEFD3 /* msg1 31jan.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BAB4AC19965594002FEFD3 /* msg1 31jan.png */; };
+		41BAB4B019965594002FEFD3 /* msg2 31jan.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BAB4AD19965594002FEFD3 /* msg2 31jan.png */; };
+		41BAB4B119965594002FEFD3 /* msg3 31jan.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BAB4AE19965594002FEFD3 /* msg3 31jan.png */; };
+		41BAB4B41996560C002FEFD3 /* SplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BAB4B31996560C002FEFD3 /* SplashScreenViewController.m */; };
 		F51D92D01961E205008E05CD /* PlayScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51D92CF1961E205008E05CD /* PlayScreenViewController.m */; };
 		F51D92D519623528008E05CD /* morven strip.png in Resources */ = {isa = PBXBuildFile; fileRef = F51D92D419623528008E05CD /* morven strip.png */; };
 		F548608B195B8AD600E4226C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F548608A195B8AD600E4226C /* QuartzCore.framework */; };
@@ -87,18 +100,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		170F7E251962995000D04D3F /* PBXContainerItemProxy */ = {
+		414CDEBC19963E71003AFE20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 170F7E211962995000D04D3F /* TheAmazingAudioEngine.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4C215CEC1523A7D500D36CAD;
-			remoteInfo = TheAmazingAudioEngine;
-		};
-		170F7E27196299E600D04D3F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 170F7E211962995000D04D3F /* TheAmazingAudioEngine.xcodeproj */;
+			containerPortal = 4173AF4519963CFC0098F6F4 /* TheAmazingAudioEngine.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 4C215CEB1523A7D500D36CAD;
+			remoteInfo = TheAmazingAudioEngine;
+		};
+		4173AF4919963CFC0098F6F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4173AF4519963CFC0098F6F4 /* TheAmazingAudioEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C215CEC1523A7D500D36CAD;
 			remoteInfo = TheAmazingAudioEngine;
 		};
 		F565CD6B195B6A5C002DA34C /* PBXContainerItemProxy */ = {
@@ -111,7 +124,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		170F7E211962995000D04D3F /* TheAmazingAudioEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TheAmazingAudioEngine.xcodeproj; path = "TheAmazingAudioEngine copy/TheAmazingAudioEngine.xcodeproj"; sourceTree = "<group>"; };
 		170F7E2C19629ED400D04D3F /* splash Screen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "splash Screen.jpg"; path = "Screen 4/splash Screen.jpg"; sourceTree = "<group>"; };
 		1799D13E1993761C00553CEE /* recording.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recording.png; sourceTree = "<group>"; };
 		1799D1411993813C00553CEE /* record song.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "record song.png"; sourceTree = "<group>"; };
@@ -131,6 +143,7 @@
 		17E0F14F198270590049144A /* FirstScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstScreenViewController.h; sourceTree = "<group>"; };
 		17E0F150198270590049144A /* FirstScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstScreenViewController.m; sourceTree = "<group>"; };
 		17E0F15219827F140049144A /* play button screen 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play button screen 1.png"; sourceTree = "<group>"; };
+		4173AF4519963CFC0098F6F4 /* TheAmazingAudioEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TheAmazingAudioEngine.xcodeproj; path = "../../../Desktop/TheAmazingAudioEngine copy/TheAmazingAudioEngine.xcodeproj"; sourceTree = "<group>"; };
 		41AC3236195C5816002755EF /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
 		41AC3237195C5816002755EF /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
 		41AC3238195C5816002755EF /* 04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04.jpg; sourceTree = "<group>"; };
@@ -143,6 +156,20 @@
 		41B383A0195C36AB00DF4B8B /* time line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "time line.png"; sourceTree = "<group>"; };
 		41B383A2195C36AB00DF4B8B /* bg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg3.png; sourceTree = "<group>"; };
 		41B383A6195C36AB00DF4B8B /* bg4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg4.png; sourceTree = "<group>"; };
+		41BAB49919964321002FEFD3 /* button-01 9Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-01 9Aug.png"; sourceTree = "<group>"; };
+		41BAB49A19964321002FEFD3 /* button-02 9Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-02 9Aug.png"; sourceTree = "<group>"; };
+		41BAB49B19964321002FEFD3 /* new bg 9Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new bg 9Aug.png"; sourceTree = "<group>"; };
+		41BAB49C19964321002FEFD3 /* new record song 9Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new record song 9Aug.png"; sourceTree = "<group>"; };
+		41BAB49D19964321002FEFD3 /* new record song blur 9Aug.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new record song blur 9Aug.PNG"; sourceTree = "<group>"; };
+		41BAB49E19964321002FEFD3 /* play song 9Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play song 9Aug.png"; sourceTree = "<group>"; };
+		41BAB49F19964321002FEFD3 /* select tune 9Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "select tune 9Aug.png"; sourceTree = "<group>"; };
+		41BAB4A019964321002FEFD3 /* splash screen 9Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash screen 9Aug.png"; sourceTree = "<group>"; };
+		41BAB4A919964E67002FEFD3 /* pause button 9 Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause button 9 Aug.png"; sourceTree = "<group>"; };
+		41BAB4AC19965594002FEFD3 /* msg1 31jan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg1 31jan.png"; sourceTree = "<group>"; };
+		41BAB4AD19965594002FEFD3 /* msg2 31jan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg2 31jan.png"; sourceTree = "<group>"; };
+		41BAB4AE19965594002FEFD3 /* msg3 31jan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg3 31jan.png"; sourceTree = "<group>"; };
+		41BAB4B21996560C002FEFD3 /* SplashScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SplashScreenViewController.h; path = ../SplashScreenViewController.h; sourceTree = "<group>"; };
+		41BAB4B31996560C002FEFD3 /* SplashScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SplashScreenViewController.m; path = ../SplashScreenViewController.m; sourceTree = "<group>"; };
 		F51D92CE1961E205008E05CD /* PlayScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayScreenViewController.h; sourceTree = "<group>"; };
 		F51D92CF1961E205008E05CD /* PlayScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayScreenViewController.m; sourceTree = "<group>"; };
 		F51D92D419623528008E05CD /* morven strip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "morven strip.png"; sourceTree = "<group>"; };
@@ -194,7 +221,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				170F7E29196299F200D04D3F /* libTheAmazingAudioEngine.a in Frameworks */,
+				414CDEBB19963E4E003AFE20 /* libTheAmazingAudioEngine.a in Frameworks */,
 				F548608E195B8B3100E4226C /* AVFoundation.framework in Frameworks */,
 				F548608B195B8AD600E4226C /* QuartzCore.framework in Frameworks */,
 				F565CD89195B6CDB002DA34C /* Accelerate.framework in Frameworks */,
@@ -218,14 +245,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		170F7E221962995000D04D3F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				170F7E261962995000D04D3F /* libTheAmazingAudioEngine.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		17E0F131198268E80049144A /* BondStreet ArtWork */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,6 +290,14 @@
 			name = Screen3;
 			sourceTree = "<group>";
 		};
+		4173AF4619963CFC0098F6F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4173AF4A19963CFC0098F6F4 /* libTheAmazingAudioEngine.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		41AC3235195C57FF002755EF /* reference images */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,10 +339,29 @@
 			path = "Screen 4";
 			sourceTree = "<group>";
 		};
+		41BAB49819964306002FEFD3 /* 9 Aug */ = {
+			isa = PBXGroup;
+			children = (
+				41BAB4AC19965594002FEFD3 /* msg1 31jan.png */,
+				41BAB4AD19965594002FEFD3 /* msg2 31jan.png */,
+				41BAB4AE19965594002FEFD3 /* msg3 31jan.png */,
+				41BAB4A919964E67002FEFD3 /* pause button 9 Aug.png */,
+				41BAB49919964321002FEFD3 /* button-01 9Aug.png */,
+				41BAB49A19964321002FEFD3 /* button-02 9Aug.png */,
+				41BAB49B19964321002FEFD3 /* new bg 9Aug.png */,
+				41BAB49C19964321002FEFD3 /* new record song 9Aug.png */,
+				41BAB49D19964321002FEFD3 /* new record song blur 9Aug.PNG */,
+				41BAB49E19964321002FEFD3 /* play song 9Aug.png */,
+				41BAB49F19964321002FEFD3 /* select tune 9Aug.png */,
+				41BAB4A019964321002FEFD3 /* splash screen 9Aug.png */,
+			);
+			name = "9 Aug";
+			sourceTree = "<group>";
+		};
 		F565CD3C195B6A5B002DA34C = {
 			isa = PBXGroup;
 			children = (
-				170F7E211962995000D04D3F /* TheAmazingAudioEngine.xcodeproj */,
+				4173AF4519963CFC0098F6F4 /* TheAmazingAudioEngine.xcodeproj */,
 				F565CD8B195B6E41002DA34C /* Modules */,
 				F565CD4E195B6A5B002DA34C /* AutoRap */,
 				F565CD6D195B6A5C002DA34C /* AutoRapTests */,
@@ -354,6 +400,8 @@
 				F565CD57195B6A5C002DA34C /* AppDelegate.h */,
 				F565CD58195B6A5C002DA34C /* AppDelegate.m */,
 				F565CD5A195B6A5C002DA34C /* Main.storyboard */,
+				41BAB4B21996560C002FEFD3 /* SplashScreenViewController.h */,
+				41BAB4B31996560C002FEFD3 /* SplashScreenViewController.m */,
 				17E0F14F198270590049144A /* FirstScreenViewController.h */,
 				17E0F150198270590049144A /* FirstScreenViewController.m */,
 				F565CD5D195B6A5C002DA34C /* ViewController.h */,
@@ -369,6 +417,7 @@
 		F565CD4F195B6A5B002DA34C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				41BAB49819964306002FEFD3 /* 9 Aug */,
 				17E0F131198268E80049144A /* BondStreet ArtWork */,
 				170F7E2C19629ED400D04D3F /* splash Screen.jpg */,
 				41AC3235195C57FF002755EF /* reference images */,
@@ -450,7 +499,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				170F7E28196299E600D04D3F /* PBXTargetDependency */,
+				414CDEBD19963E71003AFE20 /* PBXTargetDependency */,
 			);
 			name = AutoRap;
 			productName = AutoRap;
@@ -505,8 +554,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 170F7E221962995000D04D3F /* Products */;
-					ProjectRef = 170F7E211962995000D04D3F /* TheAmazingAudioEngine.xcodeproj */;
+					ProductGroup = 4173AF4619963CFC0098F6F4 /* Products */;
+					ProjectRef = 4173AF4519963CFC0098F6F4 /* TheAmazingAudioEngine.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -518,11 +567,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		170F7E261962995000D04D3F /* libTheAmazingAudioEngine.a */ = {
+		4173AF4A19963CFC0098F6F4 /* libTheAmazingAudioEngine.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libTheAmazingAudioEngine.a;
-			remoteRef = 170F7E251962995000D04D3F /* PBXContainerItemProxy */;
+			remoteRef = 4173AF4919963CFC0098F6F4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -532,11 +581,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41BAB4A219964321002FEFD3 /* button-02 9Aug.png in Resources */,
+				41BAB4AF19965594002FEFD3 /* msg1 31jan.png in Resources */,
 				17E0F147198269820049144A /* 03.png in Resources */,
+				41BAB4A119964321002FEFD3 /* button-01 9Aug.png in Resources */,
 				17E0F1401982695F0049144A /* 02.png in Resources */,
 				41B383B0195C36AB00DF4B8B /* bg4.png in Resources */,
 				1799D1481993814E00553CEE /* blur alpha.png in Resources */,
 				41B383AD195C36AB00DF4B8B /* bg3.png in Resources */,
+				41BAB4A419964321002FEFD3 /* new record song 9Aug.png in Resources */,
 				41B383AC195C36AB00DF4B8B /* time line.png in Resources */,
 				F565CD61195B6A5C002DA34C /* Images.xcassets in Resources */,
 				41AC323B195C5816002755EF /* 04.jpg in Resources */,
@@ -551,19 +604,27 @@
 				41B383AB195C36AB00DF4B8B /* song bar.png in Resources */,
 				41AC323F195C6535002755EF /* record button un press.png in Resources */,
 				1799D14B19938C8000553CEE /* record blur.png in Resources */,
+				41BAB4A319964321002FEFD3 /* new bg 9Aug.png in Resources */,
 				1799D13F1993761C00553CEE /* recording.png in Resources */,
 				17E0F14E19826F250049144A /* CHeer ful hip hop.mp3 in Resources */,
+				41BAB4AA19964E67002FEFD3 /* pause button 9 Aug.png in Resources */,
+				41BAB4A619964321002FEFD3 /* play song 9Aug.png in Resources */,
 				F565CDAA195B6E41002DA34C /* README.markdown in Resources */,
 				41AC3243195C6559002755EF /* play button un press.png in Resources */,
+				41BAB4A819964321002FEFD3 /* splash screen 9Aug.png in Resources */,
+				41BAB4A519964321002FEFD3 /* new record song blur 9Aug.PNG in Resources */,
 				F5486090195B8C0F00E4226C /* Gangster hip hop.mp3 in Resources */,
 				170F7E2D19629ED400D04D3F /* splash Screen.jpg in Resources */,
+				41BAB4A719964321002FEFD3 /* select tune 9Aug.png in Resources */,
 				F565CD5C195B6A5C002DA34C /* Main.storyboard in Resources */,
 				1799D1451993814700553CEE /* play song.png in Resources */,
 				17E0F139198269380049144A /* bar.png in Resources */,
 				F51D92D519623528008E05CD /* morven strip.png in Resources */,
 				17E0F1411982695F0049144A /* play button press.png in Resources */,
 				17E0F13A198269380049144A /* bg.png in Resources */,
+				41BAB4B019965594002FEFD3 /* msg2 31jan.png in Resources */,
 				1799D1421993813C00553CEE /* record song.png in Resources */,
+				41BAB4B119965594002FEFD3 /* msg3 31jan.png in Resources */,
 				17E0F14A198269820049144A /* record button press.png in Resources */,
 				41AC323A195C5816002755EF /* 03.jpg in Resources */,
 				17E0F148198269820049144A /* record button .png in Resources */,
@@ -594,6 +655,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F565CDAE195B6E41002DA34C /* TPCircularBuffer.c in Sources */,
+				41BAB4B41996560C002FEFD3 /* SplashScreenViewController.m in Sources */,
 				F565CDA2195B6E41002DA34C /* AELimiterFilter.m in Sources */,
 				F565CD9E195B6E41002DA34C /* AEExpanderFilter.m in Sources */,
 				17E0F151198270590049144A /* FirstScreenViewController.m in Sources */,
@@ -628,10 +690,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		170F7E28196299E600D04D3F /* PBXTargetDependency */ = {
+		414CDEBD19963E71003AFE20 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TheAmazingAudioEngine;
-			targetProxy = 170F7E27196299E600D04D3F /* PBXContainerItemProxy */;
+			targetProxy = 414CDEBC19963E71003AFE20 /* PBXContainerItemProxy */;
 		};
 		F565CD6C195B6A5C002DA34C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -700,7 +762,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -734,7 +796,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -750,12 +812,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AutoRap/AutoRap-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/vertexmedia/Desktop/Codes/AutoRap/TheAmazingAudioEngine\\ copy/TheAmazingAudioEngine",
-				);
-				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/vertexmedia/Desktop/Codes/AutoRap/TheAmazingAudioEngine\\ copy/TheAmazingAudioEngine";
+				HEADER_SEARCH_PATHS = "/Users/nauman/Desktop/TheAmazingAudioEngine\\ copy/TheAmazingAudioEngine";
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/nauman/Desktop/TheAmazingAudioEngine\\ copy/TheAmazingAudioEngine";
 				INFOPLIST_FILE = "AutoRap/AutoRap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -769,8 +829,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AutoRap/AutoRap-Prefix.pch";
-				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/vertexmedia/Desktop/Codes/AutoRap/TheAmazingAudioEngine\\ copy/TheAmazingAudioEngine";
+				HEADER_SEARCH_PATHS = "/Users/nauman/Desktop/TheAmazingAudioEngine\\ copy/TheAmazingAudioEngine";
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/nauman/Desktop/TheAmazingAudioEngine\\ copy/TheAmazingAudioEngine";
 				INFOPLIST_FILE = "AutoRap/AutoRap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -792,6 +854,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "AutoRapTests/AutoRapTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -810,6 +873,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AutoRap/AutoRap-Prefix.pch";
 				INFOPLIST_FILE = "AutoRapTests/AutoRapTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

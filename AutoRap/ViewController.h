@@ -23,6 +23,7 @@
     
     __weak IBOutlet UILabel *pressAgainLabel;
     
+    IBOutlet UIImageView *MessagesImageView;
 }
 @property (nonatomic,strong) NSNumber * trackNumber;
 

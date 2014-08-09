@@ -17,6 +17,10 @@
 
 @interface FirstScreenViewController : UIViewController{
     
+    IBOutlet UIButton *PlayButtonOne;
+    IBOutlet UIButton *PlayButtonTwo;
+    IBOutlet UIButton *PlayButtonThree;
+    IBOutlet UIImageView *MessagesImageView;
 }
 
 @end
