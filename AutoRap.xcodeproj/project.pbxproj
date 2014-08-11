@@ -25,6 +25,8 @@
 		1799D1491993814E00553CEE /* blur alpha.png in Resources */ = {isa = PBXBuildFile; fileRef = 1799D1471993814E00553CEE /* blur alpha.png */; };
 		1799D14B19938C8000553CEE /* record blur.png in Resources */ = {isa = PBXBuildFile; fileRef = 1799D14A19938C8000553CEE /* record blur.png */; };
 		1799D14C19938C8000553CEE /* record blur.png in Resources */ = {isa = PBXBuildFile; fileRef = 1799D14A19938C8000553CEE /* record blur.png */; };
+		17A2E0891998A76A00C71D8C /* vertical.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A2E0881998A76A00C71D8C /* vertical.png */; };
+		17A2E08A1998A76A00C71D8C /* vertical.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A2E0881998A76A00C71D8C /* vertical.png */; };
 		17E0F139198269380049144A /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E0F135198269380049144A /* bar.png */; };
 		17E0F13A198269380049144A /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E0F136198269380049144A /* bg.png */; };
 		17E0F1401982695F0049144A /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E0F13D1982695F0049144A /* 02.png */; };
@@ -136,6 +138,7 @@
 		1799D1441993814700553CEE /* play song.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play song.png"; sourceTree = "<group>"; };
 		1799D1471993814E00553CEE /* blur alpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blur alpha.png"; sourceTree = "<group>"; };
 		1799D14A19938C8000553CEE /* record blur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "record blur.png"; sourceTree = "<group>"; };
+		17A2E0881998A76A00C71D8C /* vertical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vertical.png; sourceTree = "<group>"; };
 		17E0F135198269380049144A /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
 		17E0F136198269380049144A /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		17E0F13D1982695F0049144A /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
@@ -284,6 +287,7 @@
 		17E0F134198269230049144A /* Screen3 */ = {
 			isa = PBXGroup;
 			children = (
+				17A2E0881998A76A00C71D8C /* vertical.png */,
 				1799D1441993814700553CEE /* play song.png */,
 				1799D13E1993761C00553CEE /* recording.png */,
 				17E0F143198269820049144A /* 03.png */,
@@ -593,6 +597,7 @@
 				41B383B0195C36AB00DF4B8B /* bg4.png in Resources */,
 				1799D1481993814E00553CEE /* blur alpha.png in Resources */,
 				41B383AD195C36AB00DF4B8B /* bg3.png in Resources */,
+				17A2E0891998A76A00C71D8C /* vertical.png in Resources */,
 				41BAB4A419964321002FEFD3 /* new record song 9Aug.png in Resources */,
 				41B383AC195C36AB00DF4B8B /* time line.png in Resources */,
 				F565CD61195B6A5C002DA34C /* Images.xcassets in Resources */,
@@ -643,6 +648,7 @@
 				178E7AE019965F7E00B26873 /* button-02 9Aug.png in Resources */,
 				F565CDAB195B6E41002DA34C /* README.markdown in Resources */,
 				F565CD72195B6A5C002DA34C /* InfoPlist.strings in Resources */,
+				17A2E08A1998A76A00C71D8C /* vertical.png in Resources */,
 				F5486091195B8C0F00E4226C /* Gangster hip hop.mp3 in Resources */,
 				1799D1491993814E00553CEE /* blur alpha.png in Resources */,
 				178E7AE219965F7E00B26873 /* new bg 9Aug.png in Resources */,

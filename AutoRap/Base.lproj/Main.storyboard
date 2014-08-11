@@ -287,20 +287,6 @@
                                     <action selector="PlayButton:" destination="bgi-NW-o5g" eventType="touchUpInside" id="vqR-8R-FmW"/>
                                 </connections>
                             </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new record song blur 9Aug.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="w8a-uI-H8V" userLabel="BlurImage">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1029"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RhB-WP-CLI">
-                                <rect key="frame" x="9" y="11" width="739" height="993"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="bCZ-jy-MKI" kind="modal" id="F53-iQ-ucJ"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HJG-74-FM3">
                                 <rect key="frame" x="0.0" y="894" width="185" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -322,6 +308,20 @@
                                 <rect key="frame" x="34" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vertical.png" translatesAutoresizingMaskIntoConstraints="NO" id="w8a-uI-H8V" userLabel="BlurImage">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1029"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RhB-WP-CLI" userLabel="hidden button for next screen">
+                                <rect key="frame" x="9" y="11" width="739" height="993"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="bCZ-jy-MKI" kind="modal" id="F53-iQ-ucJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -352,6 +352,7 @@
         <image name="play song 9Aug.png" width="768" height="1024"/>
         <image name="record button un press.png" width="294" height="252"/>
         <image name="splash screen 9Aug.png" width="768" height="1024"/>
+        <image name="vertical.png" width="768" height="1024"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -359,7 +360,7 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="knV-Pu-HiC"/>
         <segue reference="G81-Cn-q1w"/>
+        <segue reference="6DG-zm-s1q"/>
     </inferredMetricsTieBreakers>
 </document>
