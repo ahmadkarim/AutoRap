@@ -47,6 +47,11 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
 @implementation PlayScreenViewController
 
 
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
+}
+
 
 - (void)viewDidLoad
 {
@@ -106,7 +111,7 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
 
 -(void) sync1{
     incremetorForTimeSyncing++;
-    [_player setCurrentTime:1.00];
+    [_player setCurrentTime:1.50];
     
    
         p*=-1;
@@ -146,7 +151,7 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
                                     repeats:YES];
    
     
-    timer1 = [NSTimer scheduledTimerWithTimeInterval:10.0
+    timer1 = [NSTimer scheduledTimerWithTimeInterval:12.0
                                               target:self
                                             selector:@selector(LastMethod)
                                             userInfo:nil

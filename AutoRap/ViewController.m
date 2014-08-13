@@ -33,9 +33,21 @@
 @implementation ViewController
 
 
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    counDownInt=5;
+    countdownLabel.font=[countdownLabel.font fontWithSize:25];
+    [countdownLabel sizeToFit];
+    
+ //   [countdownLabel setFont:[UIFont fontWithName:@"Chalkduster" size:46]];
+    
     
     [NSTimer scheduledTimerWithTimeInterval:1.5 target:self selector:@selector(MessageChanger) userInfo:nil repeats:YES];
     
@@ -68,8 +80,39 @@
 
 }
 
+-(void)CountDown{
+    counDownInt--;
+    countdownLabel.text=[NSString stringWithFormat:@"%d",counDownInt];
+    UIImage * image=[UIImage imageNamed:[NSString stringWithFormat:@"%d.png",counDownInt]];
+    countDownImageView.image=image;
+    
+    
+    
+    if (counDownInt < 0) {
+        
+        [timer0 invalidate];
+        
+        [_recorder finishRecording];
+        [_audioController removeOutputReceiver:_recorder];
+        [_audioController removeInputReceiver:_recorder];
+        self.recorder = nil;
+        NSLog(@"recorder ended");
+        //_recordButton.selected = NO;
+        
+         [self performSegueWithIdentifier:@"toPlayScreen" sender:nil];
+        
+    }
+    
+}
+
 
 - (IBAction)RecordButton:(UIButton *)sender {
+    
+    timer0 = [NSTimer scheduledTimerWithTimeInterval:1.0
+                                              target:self
+                                            selector:@selector(CountDown)
+                                            userInfo:nil
+                                             repeats:YES];
 
     isRecordButtonPressed=!isRecordButtonPressed;
     
@@ -108,12 +151,17 @@
         BlurImage.hidden=NO;
         RecordingLabel.hidden=NO;
         pressAgainLabel.hidden=NO;
+        countdownLabel.hidden=NO;
+        countDownImageView.hidden=NO;
     }else{
         BlurImage.hidden=YES;
         RecordingLabel.hidden=YES;
         pressAgainLabel.hidden=YES;
+        countdownLabel.hidden=YES;
+        countDownImageView.hidden=YES;
+
         
-        [self performSegueWithIdentifier:@"toPlayScreen" sender:nil];
+       
     }
     
     

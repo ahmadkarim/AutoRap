@@ -24,6 +24,12 @@
     __weak IBOutlet UILabel *pressAgainLabel;
     
     IBOutlet UIImageView *MessagesImageView;
+    __weak IBOutlet UILabel *countdownLabel;
+    int counDownInt;
+     NSTimer * timer0;
+    
+    __weak IBOutlet UIImageView *countDownImageView;
+    
 }
 @property (nonatomic,strong) NSNumber * trackNumber;
 

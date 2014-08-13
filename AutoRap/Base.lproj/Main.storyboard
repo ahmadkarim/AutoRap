@@ -190,10 +190,6 @@
                                     <segue destination="bgi-NW-o5g" kind="modal" identifier="toPlayScreen" id="zKa-fc-3FJ"/>
                                 </connections>
                             </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new record song blur 9Aug.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="LFo-M7-yGS" userLabel="BlurImage - recording.png">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yEe-85-fqC" userLabel="REcordButton">
                                 <rect key="frame" x="237" y="386" width="294" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -204,6 +200,10 @@
                                     <action selector="RecordButton:" destination="cYo-Pq-Qh9" eventType="touchUpInside" id="bh2-8W-WJ8"/>
                                 </connections>
                             </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new record song blur 9Aug.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="LFo-M7-yGS" userLabel="BlurImage - recording.png">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="URa-RZ-hLG" userLabel="Preview">
                                 <rect key="frame" x="282" y="805" width="195" height="173"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -225,21 +225,25 @@
                                 </connections>
                             </button>
                             <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recording..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65J-iL-gtn">
-                                <rect key="frame" x="212" y="222" width="425" height="156"/>
+                                <rect key="frame" x="212" y="196" width="425" height="156"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="67"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Press the record Button again to stop recording" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MtG-ng-HMX">
                                 <rect key="frame" x="183" y="673" width="454" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="msg1 31jan.png" translatesAutoresizingMaskIntoConstraints="NO" id="3so-tc-p5j">
                                 <rect key="frame" x="34" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qgm-Qz-WdW" userLabel="CountDownImageView">
+                                <rect key="frame" x="204" y="299" width="361" height="378"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -250,6 +254,7 @@
                         <outlet property="BlurImage" destination="LFo-M7-yGS" id="fXk-AK-trS"/>
                         <outlet property="MessagesImageView" destination="3so-tc-p5j" id="Ci7-lx-aQg"/>
                         <outlet property="RecordingLabel" destination="65J-iL-gtn" id="nTZ-jS-Z32"/>
+                        <outlet property="countDownImageView" destination="Qgm-Qz-WdW" id="23t-9b-jc6"/>
                         <outlet property="pressAgainLabel" destination="MtG-ng-HMX" id="9yI-g2-Ola"/>
                     </connections>
                 </viewController>
@@ -339,6 +344,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="5.png" width="500" height="500"/>
         <image name="bar.png" width="684" height="105"/>
         <image name="bg4.png" width="768" height="1024"/>
         <image name="button-01 9Aug.png" width="1009" height="1025"/>
