@@ -16,7 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new bg 9Aug.png" translatesAutoresizingMaskIntoConstraints="NO" id="5kV-XY-uF1">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="msg3 31jan.png" translatesAutoresizingMaskIntoConstraints="NO" id="IbZ-jE-8fw">
+                                <rect key="frame" x="34" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="select tune.png" translatesAutoresizingMaskIntoConstraints="NO" id="5kV-XY-uF1">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -30,22 +34,22 @@
                                     <segue destination="cYo-Pq-Qh9" kind="modal" identifier="segue1" id="knV-Pu-HiC"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bar.png" translatesAutoresizingMaskIntoConstraints="NO" id="6VF-OQ-bEY">
-                                <rect key="frame" x="19" y="557" width="684" height="105"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="less smell bar.png" translatesAutoresizingMaskIntoConstraints="NO" id="6VF-OQ-bEY" userLabel="Bar 3 - bar.png">
+                                <rect key="frame" x="19" y="630" width="695" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bar.png" translatesAutoresizingMaskIntoConstraints="NO" id="XLX-oe-5d9">
-                                <rect key="frame" x="19" y="227" width="684" height="105"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="london icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="XLX-oe-5d9" userLabel="Bar 1- bar.png">
+                                <rect key="frame" x="19" y="288" width="695" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bar.png" translatesAutoresizingMaskIntoConstraints="NO" id="BTr-6u-nqD">
-                                <rect key="frame" x="19" y="395" width="684" height="105"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="globe bar.png" translatesAutoresizingMaskIntoConstraints="NO" id="BTr-6u-nqD" userLabel="Bar 2 - bar.png">
+                                <rect key="frame" x="19" y="454" width="695" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aoC-xg-dKh" userLabel="PlayIcon1">
-                                <rect key="frame" x="29" y="233" width="93" height="92"/>
+                                <rect key="frame" x="27" y="295" width="93" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="button-01 9Aug.png">
+                                <state key="normal" image="play n preview.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -53,9 +57,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EiH-eG-Plh" userLabel="PlayIcon2">
-                                <rect key="frame" x="27" y="402" width="94" height="94"/>
+                                <rect key="frame" x="26" y="459" width="94" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="button-01 9Aug.png">
+                                <state key="normal" image="play n preview.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -63,9 +67,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dq8-TU-FuY" userLabel="PlayIcon3">
-                                <rect key="frame" x="28" y="561" width="94" height="94"/>
+                                <rect key="frame" x="26" y="641" width="94" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="button-01 9Aug.png">
+                                <state key="normal" image="play n preview.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -73,10 +77,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ipi-gk-hIv" userLabel="Track1 - Gangster Hip Hop">
-                                <rect key="frame" x="268" y="249" width="274" height="61"/>
+                                <rect key="frame" x="247" y="315" width="274" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="29"/>
-                                <state key="normal" title="Tune 1">
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="32"/>
+                                <state key="normal" title="TRIP HOP">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -84,11 +88,11 @@
                                     <action selector="CallSegue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="96x-o2-ZhH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ry-tb-IkX" userLabel="Track2 - Gangster Hip Hop">
-                                <rect key="frame" x="242" y="407" width="327" height="59"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ry-tb-IkX" userLabel="Track2 - Gangster Hip Hop">
+                                <rect key="frame" x="221" y="482" width="327" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="29"/>
-                                <state key="normal" title="Tune 2">
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="32"/>
+                                <state key="normal" title="NEO SOUL">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -97,10 +101,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxb-ee-lrF" userLabel="Track3 - Gangster Hip Hop">
-                                <rect key="frame" x="242" y="579" width="327" height="61"/>
+                                <rect key="frame" x="221" y="653" width="327" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="29"/>
-                                <state key="normal" title="Tune 3">
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="32"/>
+                                <state key="normal" title="E L E K T R A">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -108,10 +112,6 @@
                                     <action selector="CallSegue3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EZt-aa-FRm"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="msg3 31jan.png" translatesAutoresizingMaskIntoConstraints="NO" id="IbZ-jE-8fw">
-                                <rect key="frame" x="34" y="0.0" width="768" height="1024"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -142,14 +142,14 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YdJ-iq-X3x">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="splash screen 9Aug.png">
+                                <state key="normal" image="vertical.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="modal" id="zI8-Zf-zsF"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="msg2 31jan.png" translatesAutoresizingMaskIntoConstraints="NO" id="xdh-cf-TuO">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="msg2 31jan.png" translatesAutoresizingMaskIntoConstraints="NO" id="xdh-cf-TuO">
                                 <rect key="frame" x="34" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -345,19 +345,20 @@
     </scenes>
     <resources>
         <image name="5.png" width="500" height="500"/>
-        <image name="bar.png" width="684" height="105"/>
         <image name="bg4.png" width="768" height="1024"/>
-        <image name="button-01 9Aug.png" width="1009" height="1025"/>
+        <image name="globe bar.png" width="695" height="123"/>
+        <image name="less smell bar.png" width="695" height="115"/>
+        <image name="london icon.png" width="695" height="127"/>
         <image name="msg1 31jan.png" width="768" height="1024"/>
         <image name="msg2 31jan.png" width="768" height="1024"/>
         <image name="msg3 31jan.png" width="768" height="1024"/>
-        <image name="new bg 9Aug.png" width="768" height="1024"/>
         <image name="new record song 9Aug.png" width="768" height="1024"/>
         <image name="new record song blur 9Aug.PNG" width="768" height="1024"/>
         <image name="play button un press.png" width="295" height="253"/>
+        <image name="play n preview.png" width="65" height="86"/>
         <image name="play song 9Aug.png" width="768" height="1024"/>
         <image name="record button un press.png" width="294" height="252"/>
-        <image name="splash screen 9Aug.png" width="768" height="1024"/>
+        <image name="select tune.png" width="768" height="1024"/>
         <image name="vertical.png" width="768" height="1024"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -366,7 +367,7 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="G81-Cn-q1w"/>
-        <segue reference="6DG-zm-s1q"/>
+        <segue reference="knV-Pu-HiC"/>
+        <segue reference="zI8-Zf-zsF"/>
     </inferredMetricsTieBreakers>
 </document>

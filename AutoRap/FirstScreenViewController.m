@@ -87,19 +87,19 @@
     
     if (!_loop1.channelIsMuted) {
         _loop1.channelIsMuted=YES;
-        UIImage *PlayButton1 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        UIImage *PlayButton1 = [UIImage imageNamed:@"play n preview.png"];
         [PlayButtonOne setImage:PlayButton1 forState:UIControlStateNormal];
-        UIImage *PlayButton2 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        UIImage *PlayButton2 = [UIImage imageNamed:@"play n preview.png"];
         [PlayButtonTwo setImage:PlayButton2 forState:UIControlStateNormal];
-        UIImage *PlayButton3 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        UIImage *PlayButton3 = [UIImage imageNamed:@"play n preview.png"];
         [PlayButtonThree setImage:PlayButton3 forState:UIControlStateNormal];
         
     }else{
         UIImage *pauseButton2 = [UIImage imageNamed:@"button-02 9Aug.png"];
         [PlayButtonOne setImage:pauseButton2 forState:UIControlStateNormal];
-        UIImage *PlayButton2 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        UIImage *PlayButton2 = [UIImage imageNamed:@"play n preview.png"];
         [PlayButtonTwo setImage:PlayButton2 forState:UIControlStateNormal];
-        UIImage *PlayButton3 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        UIImage *PlayButton3 = [UIImage imageNamed:@"play n preview.png"];
         [PlayButtonThree setImage:PlayButton3 forState:UIControlStateNormal];
         _loop1.channelIsMuted=NO;
         _loop2.channelIsMuted=YES;
@@ -115,18 +115,18 @@
     
     if (!_loop2.channelIsMuted) {
         _loop2.channelIsMuted=YES;
-        UIImage *PlayButton2 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        UIImage *PlayButton2 = [UIImage imageNamed:@"play n preview.png"];
         [PlayButtonTwo setImage:PlayButton2 forState:UIControlStateNormal];
-        UIImage *PlayButton1 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        UIImage *PlayButton1 = [UIImage imageNamed:@"play n preview.png"];
         [PlayButtonOne setImage:PlayButton1 forState:UIControlStateNormal];
-        UIImage *PlayButton3 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        UIImage *PlayButton3 = [UIImage imageNamed:@"play n preview.png"];
         [PlayButtonThree setImage:PlayButton3 forState:UIControlStateNormal];
     }else{
         UIImage *pauseButton2 = [UIImage imageNamed:@"button-02 9Aug.png"];
         [PlayButtonTwo setImage:pauseButton2 forState:UIControlStateNormal];
-        UIImage *PlayButton1 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        UIImage *PlayButton1 = [UIImage imageNamed:@"play n preview.png"];
         [PlayButtonOne setImage:PlayButton1 forState:UIControlStateNormal];
-        UIImage *PlayButton3 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        UIImage *PlayButton3 = [UIImage imageNamed:@"play n preview.png"];
         [PlayButtonThree setImage:PlayButton3 forState:UIControlStateNormal];
         _loop1.channelIsMuted=YES;
         _loop2.channelIsMuted=NO;
@@ -145,18 +145,18 @@
     
     if (!_loop3.channelIsMuted) {
         _loop3.channelIsMuted=YES;
-        UIImage *PlayButton3 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        UIImage *PlayButton3 = [UIImage imageNamed:@"play n preview.png"];
         [PlayButtonThree setImage:PlayButton3 forState:UIControlStateNormal];
-        UIImage *PlayButton2 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        UIImage *PlayButton2 = [UIImage imageNamed:@"play n preview.png"];
         [PlayButtonTwo setImage:PlayButton2 forState:UIControlStateNormal];
-        UIImage *PlayButton1 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        UIImage *PlayButton1 = [UIImage imageNamed:@"play n preview.png"];
         [PlayButtonOne setImage:PlayButton1 forState:UIControlStateNormal];
     }else{
         UIImage *pauseButton2 = [UIImage imageNamed:@"button-02 9Aug.png"];
         [PlayButtonThree setImage:pauseButton2 forState:UIControlStateNormal];
-        UIImage *PlayButton2 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        UIImage *PlayButton2 = [UIImage imageNamed:@"play n preview.png"];
         [PlayButtonTwo setImage:PlayButton2 forState:UIControlStateNormal];
-        UIImage *PlayButton1 = [UIImage imageNamed:@"button-01 9Aug.png"];
+        UIImage *PlayButton1 = [UIImage imageNamed:@"play n preview.png"];
         [PlayButtonOne setImage:PlayButton1 forState:UIControlStateNormal];
         _loop1.channelIsMuted=YES;
         _loop2.channelIsMuted=YES;
