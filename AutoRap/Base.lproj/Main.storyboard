@@ -125,7 +125,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3105" y="103"/>
+            <point key="canvasLocation" x="-905" y="-3985"/>
         </scene>
         <!--Splash Screen View Controller-->
         <scene sceneID="ZIb-Ct-rEF">
@@ -162,7 +162,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uvc-mB-gqe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4386" y="103"/>
+            <point key="canvasLocation" x="-2506" y="-3993"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hdc-Yl-Uew">
@@ -260,7 +260,49 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qIP-wl-ZfL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1696" y="51"/>
+            <point key="canvasLocation" x="-968" y="-2653"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="k78-hj-x4x">
+            <objects>
+                <viewController id="h9Z-JU-76L" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ElU-YQ-UU3"/>
+                        <viewControllerLayoutGuide type="bottom" id="wdc-lI-5AS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vD3-X5-eFT">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="02.png" translatesAutoresizingMaskIntoConstraints="NO" id="F4u-Fh-UcW">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="02Other.png" translatesAutoresizingMaskIntoConstraints="NO" id="wVE-kz-3Af">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HW.png" translatesAutoresizingMaskIntoConstraints="NO" id="DMr-Fi-CEl">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IE5-uV-Cfq">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="bCZ-jy-MKI" kind="modal" id="uqE-Yq-boc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2LD-Jw-e4C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2435" y="-2642"/>
         </scene>
         <!--Play Screen View Controller-->
         <scene sceneID="G7o-Aq-dhi">
@@ -324,7 +366,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="bCZ-jy-MKI" kind="modal" id="F53-iQ-ucJ"/>
+                                    <segue destination="h9Z-JU-76L" kind="modal" identifier="toLastScreen" id="jws-WH-IsL"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -340,11 +382,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5C4-na-jRa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2922" y="-1461"/>
+            <point key="canvasLocation" x="-914" y="-1101"/>
         </scene>
     </scenes>
     <resources>
+        <image name="02.png" width="868" height="1124"/>
+        <image name="02Other.png" width="772" height="1008"/>
         <image name="5.png" width="500" height="500"/>
+        <image name="HW.png" width="767" height="1008"/>
         <image name="bg4.png" width="768" height="1024"/>
         <image name="globe bar.png" width="695" height="123"/>
         <image name="less smell bar.png" width="695" height="115"/>

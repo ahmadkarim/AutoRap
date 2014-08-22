@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		170C468819A74B970077163C /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 170C468619A74B970077163C /* 02.png */; };
+		170C468919A74B970077163C /* 02Other.png in Resources */ = {isa = PBXBuildFile; fileRef = 170C468719A74B970077163C /* 02Other.png */; };
 		17300B1519A63A5E00502F2F /* globe bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 17300B1219A63A5E00502F2F /* globe bar.png */; };
 		17300B1619A63A5E00502F2F /* less smell bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 17300B1319A63A5E00502F2F /* less smell bar.png */; };
 		17300B1719A63A5E00502F2F /* london icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 17300B1419A63A5E00502F2F /* london icon.png */; };
@@ -111,6 +113,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		170C468619A74B970077163C /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		170C468719A74B970077163C /* 02Other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02Other.png; sourceTree = "<group>"; };
 		17300B1219A63A5E00502F2F /* globe bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "globe bar.png"; sourceTree = "<group>"; };
 		17300B1319A63A5E00502F2F /* less smell bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "less smell bar.png"; sourceTree = "<group>"; };
 		17300B1419A63A5E00502F2F /* london icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "london icon.png"; sourceTree = "<group>"; };
@@ -249,6 +253,8 @@
 		17B2541C19A64D6C00FC789F /* LastScreen */ = {
 			isa = PBXGroup;
 			children = (
+				170C468619A74B970077163C /* 02.png */,
+				170C468719A74B970077163C /* 02Other.png */,
 				17B2541D19A64D7800FC789F /* HW.png */,
 			);
 			name = LastScreen;
@@ -562,6 +568,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170C468919A74B970077163C /* 02Other.png in Resources */,
 				178E7AE119965F7E00B26873 /* new bg 9Aug.png in Resources */,
 				178E7ADF19965F7E00B26873 /* button-02 9Aug.png in Resources */,
 				41BAB4AF19965594002FEFD3 /* msg1 31jan.png in Resources */,
@@ -580,6 +587,7 @@
 				17E0F14E19826F250049144A /* CHeer ful hip hop.mp3 in Resources */,
 				17300B1619A63A5E00502F2F /* less smell bar.png in Resources */,
 				17300B1919A63B5B00502F2F /* select tune.png in Resources */,
+				170C468819A74B970077163C /* 02.png in Resources */,
 				41BAB4AA19964E67002FEFD3 /* pause button 9 Aug.png in Resources */,
 				1752F65F199B710200BFDA3D /* 1.png in Resources */,
 				41BAB4A619964321002FEFD3 /* play song 9Aug.png in Resources */,

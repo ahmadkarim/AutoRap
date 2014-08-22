@@ -132,7 +132,7 @@ static inline BOOL _checkResult(OSStatus result, const char *operation, const ch
     lastButton.hidden=NO;
     
     
-    //[self performSegueWithIdentifier:@"toFirstScreen" sender:nil];
+    [self performSegueWithIdentifier:@"toLastScreen" sender:nil];
     
     _loop1.channelIsMuted=YES;
     _loop2.channelIsMuted=YES;
