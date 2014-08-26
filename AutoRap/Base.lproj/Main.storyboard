@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="msg3 31jan.png" translatesAutoresizingMaskIntoConstraints="NO" id="IbZ-jE-8fw">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="msg3 31jan.png" translatesAutoresizingMaskIntoConstraints="NO" id="IbZ-jE-8fw">
                                 <rect key="frame" x="34" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -125,7 +125,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-905" y="-3985"/>
+            <point key="canvasLocation" x="-906" y="-3982"/>
         </scene>
         <!--Splash Screen View Controller-->
         <scene sceneID="ZIb-Ct-rEF">
@@ -176,7 +176,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new record song 9Aug.png" translatesAutoresizingMaskIntoConstraints="NO" id="pB4-Qh-vfs">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="record song.png" translatesAutoresizingMaskIntoConstraints="NO" id="pB4-Qh-vfs">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -200,7 +200,7 @@
                                     <action selector="RecordButton:" destination="cYo-Pq-Qh9" eventType="touchUpInside" id="bh2-8W-WJ8"/>
                                 </connections>
                             </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new record song blur 9Aug.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="LFo-M7-yGS" userLabel="BlurImage - recording.png">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="recording.png" translatesAutoresizingMaskIntoConstraints="NO" id="LFo-M7-yGS" userLabel="BlurImage - recording.png">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -238,8 +238,8 @@
                                 <color key="textColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="msg1 31jan.png" translatesAutoresizingMaskIntoConstraints="NO" id="3so-tc-p5j">
-                                <rect key="frame" x="34" y="0.0" width="768" height="1024"/>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="msg1 31jan.png" translatesAutoresizingMaskIntoConstraints="NO" id="3so-tc-p5j">
+                                <rect key="frame" x="-74" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qgm-Qz-WdW" userLabel="CountDownImageView">
@@ -274,17 +274,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="02.png" translatesAutoresizingMaskIntoConstraints="NO" id="F4u-Fh-UcW">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KV.png" translatesAutoresizingMaskIntoConstraints="NO" id="F4u-Fh-UcW">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="02Other.png" translatesAutoresizingMaskIntoConstraints="NO" id="wVE-kz-3Af">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HW.png" translatesAutoresizingMaskIntoConstraints="NO" id="DMr-Fi-CEl">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IE5-uV-Cfq">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
@@ -316,11 +308,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg4.png" translatesAutoresizingMaskIntoConstraints="NO" id="I8d-TS-rqI">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="play song 9Aug.png" translatesAutoresizingMaskIntoConstraints="NO" id="neg-Nw-gQa">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="play song.png" translatesAutoresizingMaskIntoConstraints="NO" id="I8d-TS-rqI">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -344,19 +332,8 @@
                                     <segue destination="cYo-Pq-Qh9" kind="modal" identifier="" id="6DG-zm-s1q"/>
                                 </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap to Reset" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Hl-SK-qKF">
-                                <rect key="frame" x="215" y="391" width="339" height="143"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="msg2 31jan.png" translatesAutoresizingMaskIntoConstraints="NO" id="jrm-6t-Bz9">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="msg2 31jan.png" translatesAutoresizingMaskIntoConstraints="NO" id="jrm-6t-Bz9">
                                 <rect key="frame" x="34" y="0.0" width="768" height="1024"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vertical.png" translatesAutoresizingMaskIntoConstraints="NO" id="w8a-uI-H8V" userLabel="BlurImage">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1029"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RhB-WP-CLI" userLabel="hidden button for next screen">
@@ -374,9 +351,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="JGQ-Jg-L81"/>
                     <connections>
-                        <outlet property="BlurImage" destination="w8a-uI-H8V" id="14F-kz-NXx"/>
                         <outlet property="MessagesImageView" destination="jrm-6t-Bz9" id="k8x-iF-kat"/>
-                        <outlet property="TapToResetLabel" destination="0Hl-SK-qKF" id="jDc-1g-3wl"/>
                         <outlet property="lastButton" destination="RhB-WP-CLI" id="9Ub-pP-qv3"/>
                     </connections>
                 </viewController>
@@ -386,23 +361,20 @@
         </scene>
     </scenes>
     <resources>
-        <image name="02.png" width="868" height="1124"/>
-        <image name="02Other.png" width="772" height="1008"/>
         <image name="5.png" width="500" height="500"/>
-        <image name="HW.png" width="767" height="1008"/>
-        <image name="bg4.png" width="768" height="1024"/>
+        <image name="KV.png" width="768" height="1024"/>
         <image name="globe bar.png" width="695" height="123"/>
         <image name="less smell bar.png" width="695" height="115"/>
         <image name="london icon.png" width="695" height="127"/>
         <image name="msg1 31jan.png" width="768" height="1024"/>
         <image name="msg2 31jan.png" width="768" height="1024"/>
         <image name="msg3 31jan.png" width="768" height="1024"/>
-        <image name="new record song 9Aug.png" width="768" height="1024"/>
-        <image name="new record song blur 9Aug.PNG" width="768" height="1024"/>
         <image name="play button un press.png" width="295" height="253"/>
         <image name="play n preview.png" width="65" height="86"/>
-        <image name="play song 9Aug.png" width="768" height="1024"/>
+        <image name="play song.png" width="768" height="1024"/>
         <image name="record button un press.png" width="294" height="252"/>
+        <image name="record song.png" width="768" height="1024"/>
+        <image name="recording.png" width="768" height="1024"/>
         <image name="select tune.png" width="768" height="1024"/>
         <image name="vertical.png" width="768" height="1024"/>
     </resources>
@@ -412,7 +384,7 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="knV-Pu-HiC"/>
-        <segue reference="zI8-Zf-zsF"/>
+        <segue reference="6DG-zm-s1q"/>
+        <segue reference="G81-Cn-q1w"/>
     </inferredMetricsTieBreakers>
 </document>
