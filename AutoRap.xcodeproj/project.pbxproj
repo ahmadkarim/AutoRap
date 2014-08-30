@@ -20,6 +20,7 @@
 		178E7AE019965F7E00B26873 /* button-02 9Aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 178E7ADB19965F7E00B26873 /* button-02 9Aug.png */; };
 		17A2E0891998A76A00C71D8C /* vertical.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A2E0881998A76A00C71D8C /* vertical.png */; };
 		17A2E08A1998A76A00C71D8C /* vertical.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A2E0881998A76A00C71D8C /* vertical.png */; };
+		17D69EE919B1C52700EC6B8C /* less smell-02Scaled.png in Resources */ = {isa = PBXBuildFile; fileRef = 17D69EE819B1C52700EC6B8C /* less smell-02Scaled.png */; };
 		17DE756719AC9DCC001B445E /* globe bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 17DE756419AC9DCC001B445E /* globe bar.png */; };
 		17DE756819AC9DCC001B445E /* less smell bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 17DE756519AC9DCC001B445E /* less smell bar.png */; };
 		17DE756919AC9DCC001B445E /* london icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 17DE756619AC9DCC001B445E /* london icon.png */; };
@@ -118,6 +119,7 @@
 		178E7ADA19965F7E00B26873 /* button-01 9Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-01 9Aug.png"; sourceTree = "<group>"; };
 		178E7ADB19965F7E00B26873 /* button-02 9Aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-02 9Aug.png"; sourceTree = "<group>"; };
 		17A2E0881998A76A00C71D8C /* vertical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vertical.png; sourceTree = "<group>"; };
+		17D69EE819B1C52700EC6B8C /* less smell-02Scaled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "less smell-02Scaled.png"; sourceTree = "<group>"; };
 		17DE756419AC9DCC001B445E /* globe bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "globe bar.png"; sourceTree = "<group>"; };
 		17DE756519AC9DCC001B445E /* less smell bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "less smell bar.png"; sourceTree = "<group>"; };
 		17DE756619AC9DCC001B445E /* london icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "london icon.png"; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 		17B2541C19A64D6C00FC789F /* LastScreen */ = {
 			isa = PBXGroup;
 			children = (
+				17D69EE819B1C52700EC6B8C /* less smell-02Scaled.png */,
 				17DE756E19ACA338001B445E /* KV.png */,
 			);
 			name = LastScreen;
@@ -534,6 +537,7 @@
 				17DE756719AC9DCC001B445E /* globe bar.png in Resources */,
 				178E7ADF19965F7E00B26873 /* button-02 9Aug.png in Resources */,
 				17DE757119ACA33E001B445E /* play song.png in Resources */,
+				17D69EE919B1C52700EC6B8C /* less smell-02Scaled.png in Resources */,
 				41BAB4AF19965594002FEFD3 /* msg1 31jan.png in Resources */,
 				178E7ADD19965F7E00B26873 /* button-01 9Aug.png in Resources */,
 				17A2E0891998A76A00C71D8C /* vertical.png in Resources */,

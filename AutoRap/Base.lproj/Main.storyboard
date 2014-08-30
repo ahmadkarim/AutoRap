@@ -142,7 +142,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YdJ-iq-X3x">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="vertical.png">
+                                <state key="normal" image="KV.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -274,7 +274,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KV.png" translatesAutoresizingMaskIntoConstraints="NO" id="F4u-Fh-UcW">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="less smell-02Scaled.png" translatesAutoresizingMaskIntoConstraints="NO" id="F4u-Fh-UcW">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -365,6 +365,7 @@
         <image name="KV.png" width="768" height="1024"/>
         <image name="globe bar.png" width="695" height="123"/>
         <image name="less smell bar.png" width="695" height="115"/>
+        <image name="less smell-02Scaled.png" width="768" height="1024"/>
         <image name="london icon.png" width="695" height="127"/>
         <image name="msg1 31jan.png" width="768" height="1024"/>
         <image name="msg2 31jan.png" width="768" height="1024"/>
@@ -376,7 +377,6 @@
         <image name="record song.png" width="768" height="1024"/>
         <image name="recording.png" width="768" height="1024"/>
         <image name="select tune.png" width="768" height="1024"/>
-        <image name="vertical.png" width="768" height="1024"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -384,7 +384,7 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="zI8-Zf-zsF"/>
         <segue reference="6DG-zm-s1q"/>
-        <segue reference="G81-Cn-q1w"/>
     </inferredMetricsTieBreakers>
 </document>
