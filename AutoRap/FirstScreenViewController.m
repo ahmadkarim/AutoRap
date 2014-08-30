@@ -50,7 +50,7 @@
     
     
     // Create the first loop player
-    _loop1 = [AEAudioFilePlayer audioFilePlayerWithURL:[[NSBundle mainBundle] URLForResource:@"Gangster hip hop" withExtension:@"mp3"]
+    _loop1 = [AEAudioFilePlayer audioFilePlayerWithURL:[[NSBundle mainBundle] URLForResource:@"Gangster Hip Hop Loop" withExtension:@"mp3"]
                                        audioController:_audioController
                                                  error:NULL];
     _loop1.volume = 1.0;
@@ -68,7 +68,7 @@
     
     
     // Create the third loop player
-    _loop3 = [AEAudioFilePlayer audioFilePlayerWithURL:[[NSBundle mainBundle] URLForResource:@"CHeer ful hip hop" withExtension:@"mp3"]
+    _loop3 = [AEAudioFilePlayer audioFilePlayerWithURL:[[NSBundle mainBundle] URLForResource:@"CHeer ful hip hop" withExtension:@"wav"]
                                        audioController:_audioController
                                                  error:NULL];
     _loop3.volume = 1.0;
